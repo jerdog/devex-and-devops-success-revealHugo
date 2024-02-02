@@ -13,11 +13,12 @@ width = "80%"
 
 ---
 
-## Defining DevEx in the context of DevOps
+## Developer Experience
+### That's just the frontend user experience, right?
 
 
 {{% note %}}
-DevEx goes beyond just the frontend or user interface. Instead it encompasses the entire spectrum of interactions that developers have with your systems, tools, and processes. from the simplicity of the setup process to the complexity of solving production issues. DevEx also impacts developer productivity, satisfaction, and ultimately, the quality of the products they build.  
+DevEx goes beyond just the frontend or user interface and extends to every aspect of a developer's interaction with your systems, including backend processes, APIs, deployment tools, and more. From the simplicity of the setup process to the complexity of solving production issues, DevEx directly impacts developer productivity, satisfaction, and ultimately, the quality of the products they build.  
 {{% /note %}}
 
 ---
@@ -25,7 +26,7 @@ DevEx goes beyond just the frontend or user interface. Instead it encompasses th
 ### DevEx is not your parents software development lifecycle
 
 {{% note %}}
-DevEx encompasses the entire development lifecycle. This includes aspects like the ease of accessing and understanding documentation, the efficiency of the build process, the effectiveness of testing frameworks, and the smoothness of deployment procedures.  
+DevEx encompasses the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. The ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
 {{% /note %}}
 
 ---
@@ -46,10 +47,10 @@ The level of investment that a company invests in DevEx can be a reflection of a
 
 ---
 
-### DevEx fits into the DevOps ecosystem
+###
 
 {{% note %}}
-When we look at DevEx this way, it aligns perfectly with the principles of DevOps, such as continuous integration and continuous deployment. A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
+A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
 {{% /note %}}
 
 ---
@@ -71,6 +72,16 @@ When we look at DevEx this way, it aligns perfectly with the principles of DevOp
 {{% /note %}}
 
 ---
+
+## The importance of DevEx in DevOps
+
+
+{{% note %}}
+When we look at DevEx this way, it aligns perfectly with the principles of DevOps, such as continuous integration and continuous deployment. 
+{{% /note %}}
+
+---
+
 
 
 
