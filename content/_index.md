@@ -13,8 +13,7 @@ width = "80%"
 
 ---
 
-## Developer Experience
-### That's just the frontend user experience, right?
+### DevEx - that's just the frontend user experience, right?
 
 
 {{% note %}}
@@ -39,18 +38,12 @@ There is a direct correlation with productivity: When developers spend less time
 
 ---
 
-### DevEx reflects the organizational values
+### DevEx reflects an organizations values
+
+{{% tweet user="IAmJerdog" id="1750563607266410692" %}}
 
 {{% note %}}
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
-{{% /note %}}
-
----
-
-###
-
-{{% note %}}
-A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
 {{% /note %}}
 
 ---
@@ -73,28 +66,75 @@ A good DevEx facilitates smoother transitions between development and operations
 
 ---
 
+## So what is DevEx?
+
+{{% fragment %}}
+DevEx encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+{{% /fragment %}}
+
+{{% note %}}
+So we went with an introduction of the topic of DevEx, but what really is it?
+{{% /note %}}
+
+---
+
+## So what is DevEx?
+
+
+{{% note %}}
+  
+{{% /note %}}
+
+---
+
+### A good DevEx is a good DevOps
+
+{{% note %}}
+A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
+{{% /note %}}
+
+---
+
 ## The importance of DevEx in DevOps
+### What is DevOps?
+
+the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
+
+{{% note %}}
+When we look at DevEx through this lens, it aligns perfectly with what DevOps is....
+{{% /note %}}
+
+## Core DevOps Practices
+
+Automation
+Collaboration and Communication
+Continuous Integration/Deployment/Monitoring/Testing
+Feedback loops
+Reduce silos
 
 
 {{% note %}}
-When we look at DevEx this way, it aligns perfectly with the principles of DevOps, such as continuous integration and continuous deployment. 
+...along with some of the core DevOps practices.
 {{% /note %}}
 
 ---
 
+### The rise of Platform Engineering
 
 
 
 {{% note %}}
-  
+Platform engineering is an emerging discipline focused on enhancing developer productivity by reducing the complexity and uncertainty of modern software delivery. It addresses some of the biggest challenges of doing DevOps at scale, including aligning development practices with business priorities and reducing the burden of managing a complicated web of tools and infrastructure across the application lifecycle. 
 {{% /note %}}
 
 ---
 
+### What role does Platform Engineering play?
+
 
 
 {{% note %}}
-  
+Platform teams automate infrastructure management and enable developers to self-serve reliable tools and workflows from a centrally managed technology platform. By reducing cognitive load on development teams, platform engineering serves as an important evolution in cloud native software delivery.
 {{% /note %}}
 
 ---
