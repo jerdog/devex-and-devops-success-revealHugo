@@ -22,7 +22,7 @@ DevEx goes beyond just the frontend or user interface and extends to every aspec
 
 ---
 
-### DevEx is not your parents software development lifecycle
+### DevEx is not your parent's software development lifecycle
 
 {{% note %}}
 DevEx encompasses the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. The ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
@@ -73,18 +73,43 @@ DevEx encompasses the journey of developers as they learn and deploy technology.
 {{% /fragment %}}
 
 {{% note %}}
-So we went with an introduction of the topic of DevEx, but what really is it?
+So we opened with an introduction on the topic of DevEx, but what really is it?
 {{% /note %}}
 
 ---
 
-## So what is DevEx?
+## DevEx beyond the frontend?
 
 
 {{% note %}}
-  
+As mentioned earlier, DevEx goes beyond the traditional focus on front-end or user interface experiences. It encompasses so much more, including every interaction a developer has with systems, tools, and processes. Let's think about a couple examples.
 {{% /note %}}
 
+---
+
+### The evolution of the IDE
+#### Before the 1990s
+
+
+
+
+{{% note %}}
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, Vim, and Emacs, and my personal favorite, `nano`. One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year - and with Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). Macromedia's Dreamweaver first came out in 1997 and was awesome.
+{{% /note %}}
+
+---
+
+#### Early iterations (Late 1990s to Early 2000s) 
+
+---
+
+#### IDEs are a result of DevEx
+
+
+
+{{% note %}}
+One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities. Instead, it provides the same set of capabilities as one cohesive unit. Reducing setup time can increase developer productivity, especially in cases where learning to use the IDE is faster than manually integrating and learning all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced, thus allowing developers to debug code much faster and more easily with an IDE.
+{{% /note %}}
 ---
 
 ### A good DevEx is a good DevOps
