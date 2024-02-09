@@ -211,6 +211,48 @@ These examples illustrate the significant strides made in improving the develope
 
 ---
 
+### Modern Development
+
+
+---
+
+#### The rise of Platform Engineering
+
+
+
+{{% note %}}
+The rise of platform engineering represents a paradigm shift towards creating comprehensive, integrated environments that cater specifically to the needs of developers. This movement focuses on abstracting away the complexities of infrastructure and backend services, allowing developers to concentrate on writing code and creating value. Platform engineering embodies the principles of DevEx by ensuring that developers have access to robust, scalable, and easy-to-use platforms. These platforms streamline development processes, reduce setup time, and allow for a focus on innovation rather than maintenance.
+{{% /note %}}
+
+---
+
+##### Self-Service Platforms
+
+{{% note %}}
+Self-service platforms epitomize the evolution of DevEx by empowering developers to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms leverage automation, templates, and predefined policies to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms accelerate development, enhance productivity, and foster a culture of autonomy and innovation.
+{{% /note %}}
+
+---
+
+#### DevEx as a Key Differentiator
+
+
+{{% note %}}
+In the highly competitive landscape of modern software development, DevEx has emerged as a critical differentiator for attracting and retaining top talent, as well as ensuring high levels of team performance and product quality. A positive DevEx translates into a more engaged and productive development team, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx demonstrate a commitment to developer well-being and efficiency, which not only enhances their brand reputation among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy directly impacts the bottom line by enabling quicker time-to-market and more reliable products.
+{{% /note %}}
+
+---
+
+### Broader Impact of DevEx
+
+- Deployment Pipelines
+- Infrastructure as Code (IaC) Practices
+- Developer Efficiencies
+- UI/UX for Developers (User-centric Design)
+
+
+---
+
 ### A good DevEx is good DevOps
 
 {{% note %}}
@@ -245,615 +287,15 @@ When we look at DevEx through this lens, it aligns perfectly with what DevOps is
 
 ---
 
-### The rise of Platform Engineering
+### DevEx & DevOps Alignment
 
 
 
-{{% note %}}
-Platform engineering is an emerging discipline focused on enhancing developer productivity by reducing the complexity and uncertainty of modern software delivery. It addresses some of the biggest challenges of doing DevOps at scale, including aligning development practices with business priorities and reducing the burden of managing a complicated web of tools and infrastructure across the application lifecycle. 
-{{% /note %}}
-
----
-
-### What role does Platform Engineering play?
-
-
-
-{{% note %}}
-Platform teams automate infrastructure management and enable developers to self-serve reliable tools and workflows from a centrally managed technology platform. By reducing cognitive load on development teams, platform engineering serves as an important evolution in cloud native software delivery.
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-## The importance of DevEx in DevOps
-
-
-{{% note %}}
-
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
-
-
-
-{{% note %}}
-  
-{{% /note %}}
-
----
 
-
-
 {{% note %}}
-  
+**Enhancing Collaboration through DevEx:** DevEx improves collaboration by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. This includes integrated development environments (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.
+**Improving Communication via DevEx:** Effective DevEx facilitates better communication by offering platforms and tools that streamline information sharing and feedback across teams. Tools such as continuous integration/continuous deployment (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
+**Shared Responsibility Supported by DevEx:** A well-designed DevEx environment supports the principle of shared responsibility by empowering all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.
 {{% /note %}}
 
 ---
@@ -861,31 +303,35 @@ Platform teams automate infrastructure management and enable developers to self-
 
 
 {{% note %}}
-  
+By integrating DevEx with these core DevOps principles, organizations can build more cohesive, agile, and effective teams that are better equipped to meet the demands of modern software development. This synergy not only improves the workflow and productivity but also enhances the overall quality of the software delivered, ultimately benefiting the end-users.
 {{% /note %}}
 
 ---
 
+## DevEx and DevOps are One
 
-
 {{% note %}}
-  
+a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency.
 {{% /note %}}
 
 ---
 
+### Bringing Dev and Ops Together
 
-
 {{% note %}}
-  
+The convergence of DevEx and DevOps represents a strategic alignment that breaks down traditional silos between developers and operations teams, fostering a culture of collaboration and mutual understanding. By prioritizing DevEx, organizations ensure that developers have access to tools and processes that not only streamline their workflow but also facilitate a smoother transition of code from development to production. This alignment encourages both teams to work closely from the outset of projects, sharing insights, feedback, and responsibilities, which enhances the efficiency of the development lifecycle and leads to higher quality outcomes. Key to this synergy is the adoption of practices such as continuous integration and continuous deployment (CI/CD), which rely on automation to reduce manual toil and speed up delivery, while maintaining high standards of reliability and security.
 {{% /note %}}
 
 ---
 
+### Better Practices
 
-
 {{% note %}}
-  
+**Empower with the Right Tools:** Equip teams with integrated, user-friendly tools that support automation, collaboration, and real-time communication. This includes choosing IDEs, version control systems, CI/CD pipelines, and monitoring tools that align with both Dev and Ops needs.
+**Encourage Cross-functional Teams:** Promote the formation of cross-functional teams that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.
+**Implement Feedback Loops:** Establish robust feedback mechanisms that allow for continuous learning and improvement. This can be achieved through regular retrospectives, incorporating user feedback into development cycles, and using monitoring tools to gather insights on performance and user experience.
+**Focus on Automation:** Automate repetitive and manual tasks wherever possible to reduce toil and free up team members to focus on more strategic activities. This includes automating testing, deployments, and infrastructure provisioning.
+**Invest in Training and Development:** Ensure that team members have opportunities to learn and grow their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.
 {{% /note %}}
 
 ---
@@ -914,17 +360,31 @@ Platform teams automate infrastructure management and enable developers to self-
 
 ---
 
+>### "ruthlessly eliminating barriers (and blockers) that keep your developers from being successful"
 
-
 {{% note %}}
-  
+ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.
 {{% /note %}}
 
 ---
-
-{{< slide background-image="" background-opacity="0.5" >}}
 
-### Thank you.
+{{< slide id="end" >}}
+<section>
+    <div class="multiCol">
+        <div class="col">
+            <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
+            <img src="/images/slides/generic-DevEx-talk-qrcode.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
+            <a href="https://bit.ly/DevExTalk/">https://bit.ly/DevExTalk</a>
+        </div>
+        <div class="col" align="center"></div>
+        <div class="col" align="left" style="font-size: .5em;">
+            <img src="/images/linkedin.png" height="50px" style="vertical-align: middle; margin: 10px;">/in/jeremymeiss<br />
+            <img src="/images/twitter.png" height="50px" style="vertical-align: middle; margin: 10px;">@IAmJerdog<br />
+            <img src="/images/devto.png" height="50px" style="vertical-align: middle; margin: 10px;">@jerdog<br />
+            <img src="/images/mastodon.png" height="50px" style="vertical-align: middle; margin: 10px;">@jerdog@hachyderm.io
+        </div>
+    </div>
+</section>
 
 {{% note %}}
 
