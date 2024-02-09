@@ -6,14 +6,14 @@ outputs = ["Reveal"]
 width = "80%"
 
 +++
+{{< slide background-image="/images/slides/devex-central-devops-success.jpg" background-opacity="0.5" >}}
 
 ## Developer Experience...
-
 ### Central to DevOps Success
 
 ---
 
-### DevEx - that's just the frontend user experience, right?
+>### "DevEx - that's just the frontend user experience, right?"
 
 
 {{% note %}}
@@ -60,7 +60,7 @@ So we opened with an introduction on the topic of DevEx, but what really is it?
 
 ---
 
-### DevEx beyond the frontend?
+### DevEx is about more than the traditional UI/UX focus
 
 
 {{% note %}}
@@ -72,11 +72,109 @@ As mentioned earlier, DevEx goes beyond the traditional focus on front-end or us
 #### The evolution of the IDE
 ##### Before the 1990s
 
-
+![USER FRIENDLY by Illiad, vi](/images/slides/httpatomoreillycomsourceoreillyimages2055076.png)
+{.r-stretch}
+REF: O'Reilly "Learning the vi and Vim Editors"
 
 
 {{% note %}}
-I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, Vim, and Emacs, and my personal favorite, `nano`. One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew?
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![vim logo](/images/slides/vim-logo.png)  ![emacs logo](/images/slides/emacs-logo.png)  ![nano logo](/images/slides/gnu-nano-logo.png)
+
+
+{{% note %}}
+Vim, and Emacs, and my personal favorite, `nano`.
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![hp softbench manuals](/images/slides/hp-softbench-manuals.jpg)
+{.r-stretch}
+
+{{% note %}}
+One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![hp softbench ieee article](/images/slides/hp-softbench-ieee-paper.jpg)
+{.r-stretch}
+REF: https://ieeexplore.ieee.org/document/182074
+
+{{% note %}}
+Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+>#### "...the use of an IDE was not well received by developers since it would fence in their creativity."
+REF: Computerwoche, 1995.
+
+{{% note %}}
+Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![apple-MPW](/images/slides/apple-mpw.png)  ![apple-MPW](/images/slides/turbo-pascal-window.png)  
+
+{{% note %}}
+Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![WebMagic](/images/slides/webmagic-screen.jpg)  
+
+
+{{% note %}}
+The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![Frontpage](/images/slides/frontpage.png)
+{.r-stretch}
+
+{{% note %}}
+FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### Before the 1990s
+
+![Borland Delphi](/images/slides/borland-delphi.png)
+{.r-stretch}
+
+{{% note %}}
+Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 {{% /note %}}
 
 ---
