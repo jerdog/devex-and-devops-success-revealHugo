@@ -94,18 +94,66 @@ As mentioned earlier, DevEx goes beyond the traditional focus on front-end or us
 
 
 {{% note %}}
-I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, Vim, and Emacs, and my personal favorite, `nano`. One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year - and with Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). Macromedia's Dreamweaver first came out in 1997 and was awesome.
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, Vim, and Emacs, and my personal favorite, `nano`. One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 {{% /note %}}
 
 ---
 
-#### Early iterations (Late 1990s to Early 2000s) 
+### The evolution of the IDE
+#### Early iterations
+##### (Late 1990s to Early 2000s) 
+
+- Macromedia Dreamweaver in late 1997 (what was it called before?)
+- Visual Studio in late 1997 (relied on plugins)
+- FrontPage 2000 in 1999
+- Netbeans in 2000
+- Eclipse in 2001 (IBM kickstarted)
+
+{{ % note %}}
+Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of Backstage in 1996) and was awesome because of all of the scripts and integrations and controls you could add. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, and Eclipse was kickstarted and released in 2001 by IBM.
+{{% /note %}}
+
+---
+
+### The evolution of the IDE
+#### Feature & Usability Advancements
+##### Mid-2000s to 2010s
+
+- IntelliJ IDEA
+- Eclipse
+- Visual 
+
+{{ % note %}}
+**Enhanced Functionality:** IDEs like IntelliJ IDEA and later versions of Eclipse and Visual Studio began to offer more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration.
+**Language Support and Framework Integration:** There was a noticeable increase in support for multiple programming languages and frameworks, making these IDEs more versatile.
+{{% /note %}}
+
+---
+
+### The evolution of the IDE
+#### Lightweight and Cloud-Based
+##### 2010s to Now
+
+- Sublime Text and VSCode (lightweight)
+- AWS Cloud9, GitHub Codespaces, Gitpod (cloud-based)
+
+{{ % note %}}
+**Lightweight IDEs:** Tools like Sublime Text and later Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable.
+**Cloud-Based IDEs:** The introduction of cloud-based IDEs like AWS Cloud9 and GitHub Codespaces revolutionized DevEx by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup.
+{{% /note %}}
 
 ---
 
 #### IDEs are a result of DevEx
+##### Things we never knew we needed...
 
-
+- Code completion
+- Syntax highlighting
+- Debugging
+- VCS integration (no more FTPing files around)
+- Multi-language support
+- Framework integration
+- Pair programming
 
 {{% note %}}
 One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities. Instead, it provides the same set of capabilities as one cohesive unit. Reducing setup time can increase developer productivity, especially in cases where learning to use the IDE is faster than manually integrating and learning all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced, thus allowing developers to debug code much faster and more easily with an IDE.
