@@ -78,7 +78,7 @@ So we opened with an introduction on the topic of DevEx, but what really is it?
 
 ---
 
-## DevEx beyond the frontend?
+### DevEx beyond the frontend?
 
 
 {{% note %}}
@@ -87,8 +87,8 @@ As mentioned earlier, DevEx goes beyond the traditional focus on front-end or us
 
 ---
 
-### The evolution of the IDE
-#### Before the 1990s
+#### The evolution of the IDE
+##### Before the 1990s
 
 
 
@@ -99,9 +99,9 @@ I think a great example is the evolution of Integrated Development Environments 
 
 ---
 
-### The evolution of the IDE
-#### Early iterations
-##### (Late 1990s to Early 2000s) 
+#### The evolution of the IDE
+##### Early iterations
+###### (Late 1990s to Early 2000s) 
 
 - Macromedia Dreamweaver in late 1997 (what was it called before?)
 - Visual Studio in late 1997 (relied on plugins)
@@ -109,43 +109,43 @@ I think a great example is the evolution of Integrated Development Environments 
 - Netbeans in 2000
 - Eclipse in 2001 (IBM kickstarted)
 
-{{ % note %}}
+{{% note %}}
 Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of Backstage in 1996) and was awesome because of all of the scripts and integrations and controls you could add. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, and Eclipse was kickstarted and released in 2001 by IBM.
 {{% /note %}}
 
 ---
 
-### The evolution of the IDE
-#### Feature & Usability Advancements
-##### Mid-2000s to 2010s
+#### The evolution of the IDE
+##### Feature & Usability Advancements
+###### Mid-2000s to 2010s
 
 - IntelliJ IDEA
 - Eclipse
 - Visual 
 
-{{ % note %}}
+{{% note %}}
 **Enhanced Functionality:** IDEs like IntelliJ IDEA and later versions of Eclipse and Visual Studio began to offer more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration.
 **Language Support and Framework Integration:** There was a noticeable increase in support for multiple programming languages and frameworks, making these IDEs more versatile.
 {{% /note %}}
 
 ---
 
-### The evolution of the IDE
-#### Lightweight and Cloud-Based
-##### 2010s to Now
+#### The evolution of the IDE
+##### Lightweight and Cloud-Based
+###### 2010s to Now
 
 - Sublime Text and VSCode (lightweight)
 - AWS Cloud9, GitHub Codespaces, Gitpod (cloud-based)
 
-{{ % note %}}
+{{% note %}}
 **Lightweight IDEs:** Tools like Sublime Text and later Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable.
 **Cloud-Based IDEs:** The introduction of cloud-based IDEs like AWS Cloud9 and GitHub Codespaces revolutionized DevEx by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup.
 {{% /note %}}
 
 ---
 
-#### IDEs are a result of DevEx
-##### Things we never knew we needed...
+##### IDEs are a result of DevEx
+###### Things we never knew we needed...
 
 - Code completion
 - Syntax highlighting
@@ -158,18 +158,69 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 {{% note %}}
 One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities. Instead, it provides the same set of capabilities as one cohesive unit. Reducing setup time can increase developer productivity, especially in cases where learning to use the IDE is faster than manually integrating and learning all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced, thus allowing developers to debug code much faster and more easily with an IDE.
 {{% /note %}}
+
 ---
 
-### A good DevEx is a good DevOps
+#### Dev Environment Setup
+##### Manual configuration
+###### Late 1990s to Early 2000s
+
+![cfengine-earlyLogo](/images/slides/cfengine-earlylogo.png)  
+![cfengine-Logo](/images/slides/cfengine-logo.png)
+
+{{% note %}}
+Another quick example is the setup of development environments. In the early days, setting up a development environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Developers often struggled with version conflicts and compatibility issues between different tools and libraries. In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
+{{% /note %}}
+
+---
+
+#### Dev Environment Setup
+##### Config Mgmt & Containerization
+###### Mid-2000s to 2010s
+
+![Puppet Logo](/images/slides/puppet-logo.png)  ![Chef Logo](/images/slides/chef-logo.png)  ![Saltstack Logo](/images/slides/saltstack-logo-white.png)  
+![Ansible Logo](/images/slides/ansible-logo.png)  ![Docker Logo](/images/slides/docker-logo.png)  
+
+{{% note %}}
+Configuration Management Tools: The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort.
+Containerization: Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
+{{% /note %}}
+
+---
+
+#### Dev Environment Setup
+##### IaC and DevOps Integration
+###### 2010s to Present
+
+![Terraform Logo](/images/slides/terraform-logo.png)  ![AWS CloudFormation Logo](/images/slides/aws-cloudformation-logo.png)  
+![Jenkins Logo](/images/slides/jenkins-logo.png)  ![GitHub Actions Logo](/images/slides/github-actions-logo.png)  
+
+{{% note %}}
+Infrastructure as Code (IaC): Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
+DevOps and Continuous Integration/Continuous Deployment (CI/CD): The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
+{{% /note %}}
+
+---
+
+### Improving the Developer Experience
+
+
+{{% note %}}
+These examples illustrate the significant strides made in improving the developer experience through the evolution of IDEs and the setup of development environments. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
+{{% /note %}}
+
+---
+
+### A good DevEx is good DevOps
 
 {{% note %}}
 A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
 {{% /note %}}
 
+
 ---
 
-## The importance of DevEx in DevOps
-### What is DevOps?
+## What is DevOps?
 
 the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
 
@@ -177,17 +228,19 @@ the combination of practices and tools designed to increase an organization's ab
 When we look at DevEx through this lens, it aligns perfectly with what DevOps is....
 {{% /note %}}
 
-## Core DevOps Practices
+---
 
-Automation
-Collaboration and Communication
-Continuous Integration/Deployment/Monitoring/Testing
-Feedback loops
-Reduce silos
+### Core DevOps Principles
 
+- Collaboration
+- Communication
+- Shared Responsibility
 
 {{% note %}}
 ...along with some of the core DevOps practices.
+**Collaboration:** Collaboration in DevOps transcends traditional team boundaries, fostering a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This unified approach encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit.
+**Communication:** Effective communication is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development. Tools and practices that enhance transparency, such as daily stand-ups, chat applications, and collaborative platforms, are crucial for maintaining high levels of communication.
+**Shared Responsibility:** Shared responsibility in DevOps means that all team members are collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations. This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally.
 {{% /note %}}
 
 ---
@@ -216,6 +269,15 @@ Platform teams automate infrastructure management and enable developers to self-
 
 {{% note %}}
   
+{{% /note %}}
+
+---
+
+## The importance of DevEx in DevOps
+
+
+{{% note %}}
+
 {{% /note %}}
 
 ---
