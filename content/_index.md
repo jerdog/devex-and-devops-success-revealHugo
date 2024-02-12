@@ -6,7 +6,7 @@ outputs = ["Reveal"]
 width = "80%"
 
 +++
-{{< slide background-image="/images/slides/devex-central-devops-success.jpg" background-opacity="0.5" >}}
+{{< slide background-image="/images/slides/1-devex-central-devops-success.jpg" background-opacity="0.5" >}}
 
 ## Developer Experience...
 ### Central to DevOps Success
@@ -22,7 +22,7 @@ DevEx goes beyond just the frontend or user interface and extends to every aspec
 
 ---
 
-### DevEx is not your parent's software development lifecycle
+### DevEx is _more_ than your parent's software development lifecycle
 
 {{% note %}}
 DevEx encompasses the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. The ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
@@ -62,6 +62,7 @@ So we opened with an introduction on the topic of DevEx, but what really is it?
 
 ### DevEx is about more than the traditional UI/UX focus
 
+![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
 As mentioned earlier, DevEx goes beyond the traditional focus on front-end or user interface experiences. It encompasses so much more, including every interaction a developer has with systems, tools, and processes. Let's think about a couple examples.
@@ -183,8 +184,8 @@ Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 ##### Early iterations
 ###### (Late 1990s to Early 2000s) 
 
-- Macromedia Dreamweaver in late 1997 (what was it called before?)
-- Visual Studio in late 1997 (relied on plugins)
+- Macromedia Dreamweaver in late 1997 (what was it called before?)</p>
+- Visual Studio in late 1997
 - FrontPage 2000 in 1999
 - Netbeans in 2000
 - Eclipse in 2001 (IBM kickstarted)
@@ -201,7 +202,7 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 
 - IntelliJ IDEA
 - Eclipse
-- Visual 
+- Visual Studio
 
 {{% note %}}
 **Enhanced Functionality:** IDEs like IntelliJ IDEA and later versions of Eclipse and Visual Studio began to offer more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration.
@@ -214,7 +215,7 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 ##### Lightweight and Cloud-Based
 ###### 2010s to Now
 
-- Sublime Text and VSCode (lightweight)
+- Sublime Text, Atom, VSCode (lightweight)
 - AWS Cloud9, GitHub Codespaces, Gitpod (cloud-based)
 
 {{% note %}}
@@ -262,8 +263,8 @@ Another quick example is the setup of development environments. In the early day
 ![Ansible Logo](/images/slides/ansible-logo.png)  ![Docker Logo](/images/slides/docker-logo.png)  
 
 {{% note %}}
-Configuration Management Tools: The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort.
-Containerization: Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
+**Configuration Management Tools:** The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort.
+**Containerization:** Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
 {{% /note %}}
 
 ---
@@ -276,23 +277,29 @@ Containerization: Docker’s introduction in 2013 marked a significant shift, al
 ![Jenkins Logo](/images/slides/jenkins-logo.png)  ![GitHub Actions Logo](/images/slides/github-actions-logo.png)  
 
 {{% note %}}
-Infrastructure as Code (IaC): Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
-DevOps and Continuous Integration/Continuous Deployment (CI/CD): The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
+**Infrastructure as Code (IaC):** Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
+**DevOps and Continuous Integration/Continuous Deployment (CI/CD):** The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
 {{% /note %}}
 
 ---
 
-### Improving the Developer Experience
+{{< slide background-image="/images/slides/23-improve-dev-experience.jpg" background-opacity="1" >}}
 
 
 {{% note %}}
+### Improving the Developer Experience
 These examples illustrate the significant strides made in improving the developer experience through the evolution of IDEs and the setup of development environments. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
 ---
 
-### Modern Development
+{{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
 
+
+{{% note %}}
+### Modern Development
+DevEx strategies have evolved to meet contemporary development challenges and opportunities.
+{{% /note %}}
 
 ---
 
