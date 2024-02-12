@@ -242,6 +242,35 @@ One aim of the IDE is to reduce the configuration necessary to piece together mu
 
 ---
 
+{{< slide background-image="/images/slides/23-improve-dev-experience.jpg" background-opacity="1" >}}
+
+
+{{% note %}}
+### Improving the Developer Experience
+These examples illustrate the significant strides made in improving the developer experience through the evolution of IDEs and the setup of development environments. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
+{{% /note %}}
+
+---
+
+{{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
+
+
+{{% note %}}
+### Modern Development
+DevEx strategies have evolved to meet contemporary development challenges and opportunities.
+{{% /note %}}
+
+---
+
+#### DevEx as a Key Differentiator
+
+
+{{% note %}}
+In the highly competitive landscape of modern software development, DevEx has emerged as a critical differentiator for attracting and retaining top talent, as well as ensuring high levels of team performance and product quality. A positive DevEx translates into a more engaged and productive development team, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx demonstrate a commitment to developer well-being and efficiency, which not only enhances their brand reputation among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy directly impacts the bottom line by enabling quicker time-to-market and more reliable products.
+{{% /note %}}
+
+---
+
 #### Dev Environment Setup
 ##### Manual configuration
 ###### Late 1990s to Early 2000s
@@ -283,53 +312,6 @@ Another quick example is the setup of development environments. In the early day
 
 ---
 
-{{< slide background-image="/images/slides/23-improve-dev-experience.jpg" background-opacity="1" >}}
-
-
-{{% note %}}
-### Improving the Developer Experience
-These examples illustrate the significant strides made in improving the developer experience through the evolution of IDEs and the setup of development environments. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
-{{% /note %}}
-
----
-
-{{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
-
-
-{{% note %}}
-### Modern Development
-DevEx strategies have evolved to meet contemporary development challenges and opportunities.
-{{% /note %}}
-
----
-
-#### The rise of Platform Engineering
-
-
-
-{{% note %}}
-The rise of platform engineering represents a paradigm shift towards creating comprehensive, integrated environments that cater specifically to the needs of developers. This movement focuses on abstracting away the complexities of infrastructure and backend services, allowing developers to concentrate on writing code and creating value. Platform engineering embodies the principles of DevEx by ensuring that developers have access to robust, scalable, and easy-to-use platforms. These platforms streamline development processes, reduce setup time, and allow for a focus on innovation rather than maintenance.
-{{% /note %}}
-
----
-
-##### Self-Service Platforms
-
-{{% note %}}
-Self-service platforms epitomize the evolution of DevEx by empowering developers to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms leverage automation, templates, and predefined policies to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms accelerate development, enhance productivity, and foster a culture of autonomy and innovation.
-{{% /note %}}
-
----
-
-#### DevEx as a Key Differentiator
-
-
-{{% note %}}
-In the highly competitive landscape of modern software development, DevEx has emerged as a critical differentiator for attracting and retaining top talent, as well as ensuring high levels of team performance and product quality. A positive DevEx translates into a more engaged and productive development team, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx demonstrate a commitment to developer well-being and efficiency, which not only enhances their brand reputation among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy directly impacts the bottom line by enabling quicker time-to-market and more reliable products.
-{{% /note %}}
-
----
-
 ### Broader Impact of DevEx
 
 - Deployment Pipelines
@@ -337,6 +319,9 @@ In the highly competitive landscape of modern software development, DevEx has em
 - Developer Efficiencies
 - UI/UX for Developers (User-centric Design)
 
+{{% note %}}
+
+{{% /note %}}
 
 ---
 
@@ -398,8 +383,30 @@ By integrating DevEx with these core DevOps principles, organizations can build 
 ## DevEx and DevOps are One
 
 {{% note %}}
-a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency.
+a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. There's no better example than what we've seen with Platform Engineering the last few years.
 {{% /note %}}
+
+---
+
+{{< slide background-image="/images/slides/32-platform-engineering.jpg" background-opacity=".6" >}}
+
+#### The rise of Platform Engineering
+
+
+
+{{% note %}}
+The rise of platform engineering represents a paradigm shift towards creating comprehensive, integrated environments that cater specifically to the needs of developers. This movement focuses on abstracting away the complexities of infrastructure and backend services, allowing developers to concentrate on writing code and creating value. Platform engineering embodies the principles of DevEx by ensuring that developers have access to robust, scalable, and easy-to-use platforms. These platforms streamline development processes, reduce setup time, and allow for a focus on innovation rather than maintenance.
+{{% /note %}}
+
+---
+
+##### Self-Service Platforms
+
+{{% note %}}
+Self-service platforms epitomize the evolution of DevEx by empowering developers to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms leverage automation, templates, and predefined policies to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms accelerate development, enhance productivity, and foster a culture of autonomy and innovation.
+{{% /note %}}
+
+
 
 ---
 
