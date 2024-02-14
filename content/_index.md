@@ -13,7 +13,7 @@ width = "80%"
 
 ---
 
->### "DevEx - that's just the frontend user experience, right?"
+>### "DevEx - that's more about the frontend user experience, right?"
 
 
 {{% note %}}
@@ -65,7 +65,8 @@ So we opened with an introduction on the topic of DevEx, but what really is it?
 ![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
-As mentioned earlier, DevEx goes beyond the traditional focus on front-end or user interface experiences. It encompasses so much more, including every interaction a developer has with systems, tools, and processes. Let's think about a couple examples.
+As mentioned earlier, DevEx goes beyond the traditional focus on front-end or user interface experiences. It encompasses so much more, including every interaction a developer has with systems, tools, and processes. What are some of the examples that come to mind on where we've seen DevEx impact?
+Here's one example:
 {{% /note %}}
 
 ---
@@ -116,7 +117,7 @@ One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one
 REF: https://ieeexplore.ieee.org/document/182074
 
 {{% note %}}
-Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. The early iterations of IDEs were more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
+Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 
 {{% /note %}}
 
 ---
@@ -128,7 +129,7 @@ Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support 
 REF: Computerwoche, 1995.
 
 {{% note %}}
-Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
+In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
 {{% /note %}}
 
 ---
@@ -145,7 +146,7 @@ Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for nativ
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### The Web and the 1990s
 
 ![WebMagic](/images/slides/webmagic-screen.jpg)  
 
@@ -157,7 +158,7 @@ The early iterations of IDEs were more graphical and had a more modern look and 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### The Web and the 1990s
 
 ![Frontpage](/images/slides/frontpage.png)
 {.r-stretch}
@@ -169,7 +170,7 @@ FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### Cross-platform and the 1990s
 
 ![Borland Delphi](/images/slides/borland-delphi.png)
 {.r-stretch}
@@ -247,7 +248,7 @@ One aim of the IDE is to reduce the configuration necessary to piece together mu
 
 {{% note %}}
 ### Improving the Developer Experience
-These examples illustrate the significant strides made in improving the developer experience through the evolution of IDEs and the setup of development environments. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
+The IDE is just one example of the significant strides made in improving the developer experience. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
 ---
@@ -336,13 +337,42 @@ A good DevEx facilitates smoother transitions between development and operations
 
 ## What is DevOps?
 
-the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
+>#### the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
 
 {{% note %}}
 When we look at DevEx through this lens, it aligns perfectly with what DevOps is....
+
+...along with some of the core DevOps practices.
 {{% /note %}}
 
 ---
+
+{{< slide transition="slide-in none" >}}
+
+### Core DevOps Principles
+
+- Collaboration
+
+{{% note %}}
+**Collaboration:** Collaboration in DevOps transcends traditional team boundaries, fostering a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This unified approach encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit.
+{{% /note %}}
+
+---
+
+{{< slide transition="fade-in none" >}}
+
+### Core DevOps Principles
+
+- Collaboration
+- Communication
+
+{{% note %}}
+**Communication:** Effective communication is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development. Tools and practices that enhance transparency, such as daily stand-ups, chat applications, and collaborative platforms, are crucial for maintaining high levels of communication.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
 
 ### Core DevOps Principles
 
@@ -351,34 +381,60 @@ When we look at DevEx through this lens, it aligns perfectly with what DevOps is
 - Shared Responsibility
 
 {{% note %}}
-...along with some of the core DevOps practices.
-**Collaboration:** Collaboration in DevOps transcends traditional team boundaries, fostering a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This unified approach encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit.
-**Communication:** Effective communication is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development. Tools and practices that enhance transparency, such as daily stand-ups, chat applications, and collaborative platforms, are crucial for maintaining high levels of communication.
 **Shared Responsibility:** Shared responsibility in DevOps means that all team members are collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations. This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally.
 {{% /note %}}
 
 ---
 
+{{< slide transition="slide-in none" >}}
+
 ### DevEx & DevOps Alignment
 
-
+- Enhanced collaboration via tools and processes
 
 
 {{% note %}}
 **Enhancing Collaboration through DevEx:** DevEx improves collaboration by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. This includes integrated development environments (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.
+{{% /note %}}
+
+---
+
+{{< slide transition="fade-in none" >}}
+
+### DevEx & DevOps Alignment
+
+- Enhanced collaboration via tools and processes
+- Improving communication via streamlined info sharing and feedback
+
+{{% note %}}
 **Improving Communication via DevEx:** Effective DevEx facilitates better communication by offering platforms and tools that streamline information sharing and feedback across teams. Tools such as continuous integration/continuous deployment (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+### DevEx & DevOps Alignment
+
+- Enhanced collaboration via tools and processes
+- Improving communication via streamlined info sharing and feedback
+- Shared responsibility by empowering all teams with access and information
+
+{{% note %}}
 **Shared Responsibility Supported by DevEx:** A well-designed DevEx environment supports the principle of shared responsibility by empowering all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.
 {{% /note %}}
 
 ---
 
-
+{{< slide background="/images/slides/38-devex-integ-devops-principles.jpg" background-opacity="1" >}}
 
 {{% note %}}
 By integrating DevEx with these core DevOps principles, organizations can build more cohesive, agile, and effective teams that are better equipped to meet the demands of modern software development. This synergy not only improves the workflow and productivity but also enhances the overall quality of the software delivered, ultimately benefiting the end-users.
 {{% /note %}}
 
 ---
+
+{{< slide background="/images/slides/39-devex-devops-one.jpg" background-opacity=".5" >}}
 
 ## DevEx and DevOps are One
 
@@ -388,37 +444,50 @@ a robust Developer Experience (DevEx) fosters a more integrated and efficient co
 
 ---
 
-{{< slide background-image="/images/slides/32-platform-engineering.jpg" background-opacity=".6" >}}
+{{< slide background-image="/images/slides/40-platform-engineering.jpg" background-opacity=".4" >}}
 
-#### The rise of Platform Engineering
+### The rise of Platform Engineering
 
-
+- Creation of specific, integrated environments that devs need
+- Abstract away complexities of infrastructure & backend services
+- Ensure devs have access to robust, scalable, easy-to-use platforms
+- Streamline development processes and reduce setup time
 
 {{% note %}}
-The rise of platform engineering represents a paradigm shift towards creating comprehensive, integrated environments that cater specifically to the needs of developers. This movement focuses on abstracting away the complexities of infrastructure and backend services, allowing developers to concentrate on writing code and creating value. Platform engineering embodies the principles of DevEx by ensuring that developers have access to robust, scalable, and easy-to-use platforms. These platforms streamline development processes, reduce setup time, and allow for a focus on innovation rather than maintenance.
+The rise of platform engineering represents a paradigm shift **towards creating comprehensive, integrated environments that cater specifically to the needs of developers**. This movement focuses on **abstracting away the complexities of infrastructure and backend services**, allowing developers to concentrate on writing code and creating value. Platform engineering embodies the principles of DevEx by **ensuring that developers have access to robust, scalable, and easy-to-use platforms**. These platforms **streamline development processes, reduce setup time**, and allow for a focus on innovation rather than maintenance.
 {{% /note %}}
 
 ---
 
-##### Self-Service Platforms
+#### Self-Service Platforms
+
+- Empower developers to control their needs with necessary tools
+- Leverage automation, templates, policies with agility
+- Accelerate development, enhance productivity, and foster autonomy and innovation
 
 {{% note %}}
-Self-service platforms epitomize the evolution of DevEx by empowering developers to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms leverage automation, templates, and predefined policies to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms accelerate development, enhance productivity, and foster a culture of autonomy and innovation.
+Self-service platforms epitomize the evolution of DevEx by **empowering developers** to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms **leverage automation, templates, and predefined policies** to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms **accelerate development, enhance productivity, and foster a culture of autonomy and innovation**.
 {{% /note %}}
-
-
 
 ---
 
-### Bringing Dev and Ops Together
+{{< slide background-image="/images/slides/42-devex-devops-convergence.jpg" background-opacity="1" >}}
+
 
 {{% note %}}
+### Bringing DevEx and DevOps Together
 The convergence of DevEx and DevOps represents a strategic alignment that breaks down traditional silos between developers and operations teams, fostering a culture of collaboration and mutual understanding. By prioritizing DevEx, organizations ensure that developers have access to tools and processes that not only streamline their workflow but also facilitate a smoother transition of code from development to production. This alignment encourages both teams to work closely from the outset of projects, sharing insights, feedback, and responsibilities, which enhances the efficiency of the development lifecycle and leads to higher quality outcomes. Key to this synergy is the adoption of practices such as continuous integration and continuous deployment (CI/CD), which rely on automation to reduce manual toil and speed up delivery, while maintaining high standards of reliability and security.
 {{% /note %}}
 
 ---
 
 ### Better Practices
+
+<p class="fragment">Empower with the right tools</p>
+<p class="fragment">Encourage Cross-functional Teams</p>
+<p class="fragment">Implement Feedback Loops</p>
+<p class="fragment">Focus on Automation</p>
+<p class="fragment">Invest in Training and Development</p>
 
 {{% note %}}
 **Empower with the Right Tools:** Equip teams with integrated, user-friendly tools that support automation, collaboration, and real-time communication. This includes choosing IDEs, version control systems, CI/CD pipelines, and monitoring tools that align with both Dev and Ops needs.
@@ -433,7 +502,9 @@ The convergence of DevEx and DevOps represents a strategic alignment that breaks
 ## DevEx Impact
 ### Productivity
 
-
+<p class="fragment">Streamlined Development Environments</p>
+<p class="fragment">Integrated and Automated Toolchains</p>
+<p class="fragment">Efficient Collaboration Platforms</p>
 
 {{% note %}}
 **Streamlined Development Environments:** By providing developers with well-configured, easy-to-use development environments, organizations can significantly reduce setup times and minimize configuration-related delays. For instance, containerization technologies like Docker allow developers to spin up consistent development environments quickly, leading to faster start times on new projects and less time spent on environment-related issues.
@@ -448,6 +519,10 @@ There is a direct correlation with productivity: When developers spend less time
 ## DevEx Impact
 ### Morale
 
+<p class="fragment">Autonomy and Empowerment</p>
+<p class="fragment">Recognition and Achievement</p>
+<p class="fragment">Reduced Frustration and Burnout</p>
+<p class="fragment">Learning and Growth Opportunities</p>
 
 
 {{% note %}}
@@ -485,6 +560,9 @@ The level of investment that a company invests in DevEx can be a reflection of a
 
 ### Things to think about
 #### Integration of AI and ML
+
+<p class="fragment">Automated Code Generation and Review</p>
+<p class="fragment">Predictive Analytics in DevOps</p>
 
 
 {{% note %}}
