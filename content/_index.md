@@ -616,7 +616,7 @@ ruthlessly eliminating barriers (and blockers) that keep your developers from be
         <div class="col">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
             <img src="/images/slides/generic-DevEx-talk-qrcode.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
-            <a href="https://bit.ly/DevExTalk/">https://bit.ly/DevExTalk</a>
+            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevExTalk/">https://bit.ly/DevExTalk</a></p>
         </div>
         <div class="col" align="center"></div>
         <div class="col" align="left" style="font-size: .5em;">
