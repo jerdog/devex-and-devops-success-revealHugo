@@ -263,8 +263,13 @@ DevEx strategies have evolved to meet contemporary development challenges and op
 
 ---
 
-#### DevEx as a Key Differentiator
+#### DevEx is a Key Differentiator
 
+- Critical differentiator for attracting & retaining top talent
+- Ensures high levels of team performance and product quality
+- More engaged and productive development team
+- Demonstrated commitment to DevEx enhances brand reputation + CSAT
+- Directly impacts bottom line by enabling quicker time to market
 
 {{% note %}}
 In the highly competitive landscape of modern software development, DevEx has emerged as a critical differentiator for attracting and retaining top talent, as well as ensuring high levels of team performance and product quality. A positive DevEx translates into a more engaged and productive development team, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx demonstrate a commitment to developer well-being and efficiency, which not only enhances their brand reputation among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy directly impacts the bottom line by enabling quicker time-to-market and more reliable products.
@@ -321,12 +326,20 @@ Another quick example is the setup of development environments. In the early day
 - UI/UX for Developers (User-centric Design)
 
 {{% note %}}
-
+- Deployment Pipelines
+- Infrastructure as Code (IaC) Practices
+- Developer Efficiencies
+- UI/UX for Developers (User-centric Design)
 {{% /note %}}
 
 ---
 
 ### A good DevEx is good DevOps
+
+- Facilitates smoother transitions between Dev and Ops
+- Minimizes bottlenecks with enhanced collaboration
+- Ensures feedback loops are efficient and productive
+- Enables DevOps principles to take hold within an organization
 
 {{% note %}}
 A good DevEx facilitates smoother transitions between development and operations, minimizing bottlenecks and enhancing collaboration. With proper feedback loops in place, a positive DevEx ensures these loops are efficient and productive, enabling, or enhancing, DevOps principles to take hold within an organization.
@@ -437,6 +450,7 @@ By integrating DevEx with these core DevOps principles, organizations can build 
 {{< slide background="/images/slides/39-devex-devops-one.jpg" background-opacity=".5" >}}
 
 ## DevEx and DevOps are One
+
 
 {{% note %}}
 a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. There's no better example than what we've seen with Platform Engineering the last few years.
@@ -603,12 +617,12 @@ ruthlessly eliminating barriers (and blockers) that keep your developers from be
 {{< slide id="end" >}}
 <section>
     <div class="multiCol">
-        <div class="col">
+        <div class="col" style="text-align: center;">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
-            <img src="/images/slides/generic-DevEx-talk-qrcode.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
-            <a href="https://bit.ly/DevExTalk/">https://bit.ly/DevExTalk</a>
+            <img src="/images/DevWeekSF-DevEx-talk-qrcode.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
+            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevWeekSF-DevEx-Talk">https://bit.ly/DevWeekSF-DevEx-Talk</a></p>
         </div>
-        <div class="col" align="center"></div>
+        <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
             <img src="/images/linkedin.png" height="50px" style="vertical-align: middle; margin: 10px;">/in/jeremymeiss<br />
             <img src="/images/twitter.png" height="50px" style="vertical-align: middle; margin: 10px;">@IAmJerdog<br />
