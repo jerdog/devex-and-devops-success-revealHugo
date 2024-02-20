@@ -36,7 +36,7 @@ From the simplicity of the setup process to the complexity of solving production
         <div class="col">
             <h4 style="color: rgb(111, 168, 220);">Jeremy Meiss</h4>
             <p style="font-size: .75em;">Co-Founder</p>
-            <p style="font-size: .75em; font-style: italic;">DevEx Startup</p>
+            <p style="font-size: .75em; font-style: italic;">Stealth DevEx Startup</p>
         </div>
         <div class="col"><img src="/images/profile-pic.jpg" width="60%"></div>
     </div>
@@ -65,9 +65,9 @@ So we opened with an introduction on the topic of DevEx, but what really is it? 
 ![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
-As mentioned earlier, DevEx goes beyond the traditional focus on front-end or user interface experiences. It encompasses so much more, including every interaction a developer has with systems, tools, and processes. 
+DevEx encompasses so much more, including every interaction a developer has with systems, tools, and processes. 
 
- are some of the examples that come to mind on where we've seen DevEx impact?
+What are some of the examples that come to mind on where we've seen DevEx impact?
 
 Here's one example:
 {{% /note %}}
@@ -95,7 +95,7 @@ I think a great example is the evolution of Integrated Development Environments 
 
 
 {{% note %}}
-Vim, and Emacs, and my personal favorite, `nano`.
+Then we had Vim, and Emacs, and my personal favorite, `nano`.
 {{% /note %}}
 
 ---
@@ -129,10 +129,10 @@ Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support 
 ##### Before the 1990s
 
 >#### "...the use of an IDE was not well received by developers since it would fence in their creativity."
-REF: Computerwoche, 1995.
+REF: _Computerwoche_ ("Computer Week", German counterpart of American magazine _Computer World_), 1995.
 
 {{% note %}}
-In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
+In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
 {{% /note %}}
 
 ---
@@ -241,9 +241,15 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 - Pair programming
 
 {{% note %}}
+I go through all of that to illustrate how the overall Developer Experience with software development has improved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s. 
+
+
 One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities. Instead, it provides the same set of capabilities as one cohesive unit. Reducing setup time can increase developer productivity, especially in cases where learning to use the IDE is faster than manually integrating and learning all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced, thus allowing developers to debug code much faster and more easily with an IDE.
 {{% /note %}}
 
+---
+
+<!--
 ---
 
 {{< slide background-image="/images/slides/23-improve-dev-experience.jpg" background-opacity="1" >}}
@@ -254,6 +260,7 @@ One aim of the IDE is to reduce the configuration necessary to piece together mu
 The IDE is just one example of the significant strides made in improving the developer experience. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
+-->
 ---
 
 {{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
@@ -261,7 +268,7 @@ The IDE is just one example of the significant strides made in improving the dev
 
 {{% note %}}
 ### Modern Development
-DevEx strategies have evolved to meet contemporary development challenges and opportunities.
+The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity. 
 {{% /note %}}
 
 ---
@@ -275,7 +282,10 @@ DevEx strategies have evolved to meet contemporary development challenges and op
 - Directly impacts bottom line by enabling quicker time to market
 
 {{% note %}}
-In the highly competitive landscape of modern software development, DevEx has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
+In the highly competitive landscape of modern software development, DevEx really is that **key differentiator** that makes a company and/or their products and services stand out from the crowd. A positive DevEx translates into the **ability to attract top talent**, helps companies **increase team team performance and product quality**, have **more engaged and productive development teams**, and also **enhances a brand reputation, directly impacting the bottom line**
+
+
+has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
 {{% /note %}}
 
 ---
@@ -284,8 +294,9 @@ In the highly competitive landscape of modern software development, DevEx has em
 ##### Manual configuration
 ###### Late 1990s to Early 2000s
 
-![cfengine-earlyLogo](/images/slides/cfengine-earlylogo.png)  
-![cfengine-Logo](/images/slides/cfengine-logo.png)
+
+<p class="fragment"><img src="/images/slides/cfengine-earlylogo.png" alt="cfengine logo v1"></p>
+<p class="fragment"><img src="/images/slides/cfengine-logo.png" alt="cfengine logo v2"></p>
 
 {{% note %}}
 Another quick example is the setup of development environments. In the early days, setting up a development environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Developers often struggled with version conflicts and compatibility issues between different tools and libraries. In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
@@ -301,8 +312,9 @@ Another quick example is the setup of development environments. In the early day
 ![Ansible Logo](/images/slides/ansible-logo.png)  ![Docker Logo](/images/slides/docker-logo.png)  
 
 {{% note %}}
-**Configuration Management Tools:** The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort.
-**Containerization:** Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
+The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort. 
+
+Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
 {{% /note %}}
 
 ---
@@ -315,8 +327,9 @@ Another quick example is the setup of development environments. In the early day
 ![Jenkins Logo](/images/slides/jenkins-logo.png)  ![GitHub Actions Logo](/images/slides/github-actions-logo.png)  
 
 {{% note %}}
-**Infrastructure as Code (IaC):** Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
-**DevOps and Continuous Integration/Continuous Deployment (CI/CD):** The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
+Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
+
+The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
 {{% /note %}}
 
 ---
@@ -326,18 +339,18 @@ Another quick example is the setup of development environments. In the early day
 - Deployment Pipelines
 - Infrastructure as Code (IaC) Practices
 - Developer Efficiencies
-- UI/UX for Developers (User-centric Design)
 
 {{% note %}}
+Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in things like how we deploy software, infrastructure as code, efficiencies, and really many more.
+
 - Deployment Pipelines
 - Infrastructure as Code (IaC) Practices
 - Developer Efficiencies
-- UI/UX for Developers (User-centric Design)
 {{% /note %}}
 
 ---
 
-### A good DevEx is good DevOps
+### Good DevEx == Good DevOps
 
 - Facilitates smoother transitions between Dev and Ops
 - Minimizes bottlenecks with enhanced collaboration
@@ -345,7 +358,7 @@ Another quick example is the setup of development environments. In the early day
 - Enables DevOps principles to take hold within an organization
 
 {{% note %}}
-A good DevEx facilitates **smoother transitions between development and operations**, **minimizing bottlenecks and enhancing collaboration**. With proper feedback loops in place, a positive DevEx **ensures these loops are efficient and productive**, **enabling, or enhancing, DevOps principles** to take hold within an organization.
+A good DevEx facilitates **smoother transitions between your dev and ops teams**, which helps to **minimize bottlenecks and enhance collaboration**. Proper feedback loops are part of DevOps, and with them in place a positive DevEx **ensures they're efficient and productive**, which **enables, or enhances as the case may be, DevOps principles** to take firm hold within an organization.
 {{% /note %}}
 
 
@@ -356,11 +369,11 @@ A good DevEx facilitates **smoother transitions between development and operatio
 >#### the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
 
 {{% note %}}
-When we look at DevEx through this lens, it aligns perfectly with what DevOps is....
+DevEx at it core aligns perfectly with what DevOps is....
 
 the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
 
-...along with some of the core DevOps practices.
+A few of the core DevOps principles really bring this all together.
 {{% /note %}}
 
 ---
@@ -372,7 +385,7 @@ the combination of practices and tools designed to increase an organization's ab
 - Collaboration
 
 {{% note %}}
-**Collaboration:** Collaboration in DevOps transcends traditional team boundaries, fostering a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This unified approach encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. **It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**.
+**Collaboration** in DevOps transcends traditional team boundaries, and fosters a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. **It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**.
 {{% /note %}}
 
 ---
@@ -385,7 +398,7 @@ the combination of practices and tools designed to increase an organization's ab
 - Communication
 
 {{% note %}}
-**Communication:** Effective communication is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development. Tools and practices that enhance transparency, such as daily stand-ups, chat applications, and collaborative platforms, are crucial for maintaining high levels of communication.
+Effective **communication** is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development.
 {{% /note %}}
 
 ---
@@ -399,7 +412,15 @@ the combination of practices and tools designed to increase an organization's ab
 - Shared Responsibility
 
 {{% note %}}
-**Shared Responsibility:** Shared responsibility in DevOps means that all team members are collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations. This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+**Shared Responsibility** in DevOps means that all team members are collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations. This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+{{% /note %}}
+
+---
+
+{{< slide background="/images/slides/38-devex-integ-devops-principles.jpg" background-opacity="1" >}}
+
+{{% note %}}
+By integrating DevEx with these core DevOps principles, organizations can build more cohesive, agile, and effective teams that are better equipped to meet the demands of modern software development. This mix is not only improving the workflow and productivity but also enhancing the overall quality of the software delivered, ultimately benefiting the end-users.
 {{% /note %}}
 
 ---
@@ -412,7 +433,7 @@ the combination of practices and tools designed to increase an organization's ab
 
 
 {{% note %}}
-**Enhancing Collaboration through DevEx:** DevEx improves collaboration by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. This includes integrated development environments (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.
+When we have alignment between DevEx and DevOps, we'll see it through **Enhanced Collaboration:** by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. Those tools and processes include (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.
 {{% /note %}}
 
 ---
@@ -425,7 +446,7 @@ the combination of practices and tools designed to increase an organization's ab
 - Improving communication via streamlined info sharing and feedback
 
 {{% note %}}
-**Improving Communication via DevEx:** Effective DevEx facilitates better communication by offering platforms and tools that streamline information sharing and feedback across teams. Tools such as continuous integration/continuous deployment (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
+**Improving Communication** is seen through platforms and tools that streamline information sharing and feedback across teams. Tools such as continuous integration/continuous deployment (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
 {{% /note %}}
 
 ---
@@ -439,15 +460,7 @@ the combination of practices and tools designed to increase an organization's ab
 - Shared responsibility by empowering all teams with access and information
 
 {{% note %}}
-**Shared Responsibility Supported by DevEx:** A well-designed DevEx environment supports the principle of shared responsibility by empowering all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.
-{{% /note %}}
-
----
-
-{{< slide background="/images/slides/38-devex-integ-devops-principles.jpg" background-opacity="1" >}}
-
-{{% note %}}
-By integrating DevEx with these core DevOps principles, organizations can build more cohesive, agile, and effective teams that are better equipped to meet the demands of modern software development. This mix is not only improving the workflow and productivity but also enhancing the overall quality of the software delivered, ultimately benefiting the end-users.
+**Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.
 {{% /note %}}
 
 ---
@@ -509,12 +522,12 @@ The convergence of DevEx and DevOps represents a strategic alignment that breaks
 <p class="fragment">Invest in Training and Development</p>
 
 {{% note %}}
-Key to this synergy is the adoption of better practices...  
-**Empower with the Right Tools:** Equip teams with integrated, user-friendly tools that support automation, collaboration, and real-time communication. This includes choosing IDEs, version control systems, CI/CD pipelines, and monitoring tools that align with both Dev and Ops needs.  
-**Encourage Cross-functional Teams:** Promote the formation of cross-functional teams that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
-**Implement Feedback Loops:** Establishing robust feedback mechanisms allow for continuous learning and improvement. This can be achieved through regular retrospectives, incorporating user feedback into development cycles, and using monitoring tools to gather insights on performance and user experience.  
-**Focus on Automation:** Automate repetitive and manual tasks wherever possible to reduce toil and free up team members to focus on more strategic activities. This includes automating testing, deployments, and infrastructure provisioning.  
-**Invest in Training and Development:** Ensure that team members have opportunities to learn and grow their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.  
+Some of the better practices to think about in enabling Good DevEx & DevOps is:
+**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs.  
+**Promote the formation of cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
+**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.  
+**Automate repetitive and manual tasks wherever possible** to reduce toil and free up team members to focus on more strategic activities. This includes automating testing, deployments, and infrastructure provisioning.  
+**Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.  
 {{% /note %}}
 
 ---
@@ -527,10 +540,10 @@ Key to this synergy is the adoption of better practices...
 <p class="fragment">Efficient Collaboration Platforms</p>
 
 {{% note %}}
-There is a direct correlation with productivity: When developers spend less time grappling with cumbersome processes and more on actual coding, innovation thrives.   
-**Streamlined Development Environments:** By providing developers with well-configured, easy-to-use development environments, organizations can significantly reduce setup times and minimize configuration-related delays. For instance, containerization technologies like Docker allow developers to spin up consistent development environments quickly, leading to faster start times on new projects and less time spent on environment-related issues.
-**Integrated and Automated Toolchains:** The use of integrated development environments (IDEs) and automation tools (for testing, building, and deployment) enhances productivity by automating repetitive tasks. Tools like Visual Studio Code, Jenkins, and GitLab CI/CD automate code analysis, builds, tests, and deployments, allowing developers to focus on coding and problem-solving rather than manual processes.
-**Efficient Collaboration Platforms:** Platforms that facilitate easy collaboration and communication, such as Slack, JIRA, and GitHub, help streamline the development process. These tools support real-time communication, issue tracking, and code reviews, enabling developers to collaborate effectively, regardless of their physical location.
+There is a direct correlation with productivity: When developers spend less time grappling with cumbersome processes and tooling and more on actual coding, innovation thrives.   
+**When organizations provide developers with well-configured, easy-to-use development environments**, they can significantly reduce setup times and minimize configuration-related delays. We've seen that with Docker and containerization - leading to faster start times on new projects and less time spent on environment-related issues.
+The use of **IDEs and automation tools** (for testing, building, and deployment) enhances productivity by automating repetitive tasks. Tools like Visual Studio Code, Jenkins, and GitLab CI/CD automate code analysis, builds, tests, and deployments, allowing developers to focus on coding and problem-solving rather than manual processes.
+**Platforms that facilitate easy collaboration and communication**, such as Slack, JIRA, and GitHub, help streamline the development process. These tools support real-time communication, issue tracking, and code reviews, enabling developers to collaborate effectively, regardless of their physical location.
 
 
 {{% /note %}}
@@ -548,10 +561,10 @@ There is a direct correlation with productivity: When developers spend less time
 
 {{% note %}}
 And then there are the psychological aspects. A good DevEx means less frustration and burnout, leading to higher job satisfaction and retention rates. Developers feel empowered and valued, which in turn boosts their motivation and engagement.  
-**Autonomy and Empowerment:** Providing developers with self-service platforms and tools that allow them to make decisions and manage their workflows can significantly boost their sense of autonomy and empowerment. For example, self-service portals for provisioning infrastructure or deploying applications enable developers to execute tasks without waiting for operations or IT support, fostering a sense of ownership and independence.
-**Recognition and Achievement:** Tools that facilitate continuous integration and delivery (CI/CD) not only improve productivity but also allow for quicker feedback on developers' work. This immediate feedback loop, where developers can see their contributions go live and make an impact promptly, can be incredibly satisfying and motivating, leading to a positive feedback cycle of achievement and recognition.
-**Reduced Frustration and Burnout:** By minimizing the friction in the development process—through better tooling, clearer processes, and supportive team dynamics—organizations can significantly reduce developer frustration and the risk of burnout. When developers spend less time on tedious, repetitive tasks or waiting for dependencies, they have more energy and enthusiasm for creative and challenging work, leading to higher job satisfaction.
-**Learning and Growth Opportunities:** A positive DevEx often includes access to resources, training, and opportunities to explore new technologies and practices. This fosters a culture of continuous learning and professional growth, which can greatly enhance morale. Developers feel valued and supported in their career paths, contributing to a more engaged and motivated team.
+Providing developers with self-service platforms and tools that allow them to make decisions and manage their workflows can significantly boost their sense of **Autonomy and Empowerment:**. Things like self-service portals for provisioning infrastructure or deploying applications enable developers to execute tasks without waiting for operations or IT support, fostering a sense of ownership and independence.  
+Tools that facilitate continuous integration and delivery (CI/CD) not only improve productivity but also allow for **quicker feedback** on developers' work. This immediate feedback loop, where developers can see their contributions go live and make an impact promptly, can be incredibly satisfying and motivating, leading to a positive feedback cycle of achievement and recognition.  
+By minimizing the friction in the development process—through better tooling, clearer processes, and supportive team dynamics—organizations can significantly **reduce developer frustration and the risk of burnout**. Developers spending less time on tedious, repetitive tasks or waiting for dependencies, have more energy and enthusiasm for creative and challenging work, leading to higher job satisfaction.
+*A positive DevEx often includes access to **resources, training, and opportunities** to explore new technologies and practices. This fosters a culture of continuous learning and professional growth, which can greatly enhance morale. Developers feel valued and supported in their career paths, contributing to a more engaged and motivated team.
 
 a thoughtful focus on DevEx can lead to tangible improvements in productivity and morale, which are crucial for the success and sustainability of development teams in the fast-paced and ever-evolving landscape of software development.  
 {{% /note %}}
@@ -566,6 +579,7 @@ a thoughtful focus on DevEx can lead to tangible improvements in productivity an
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
 {{% /note %}}
 
+<!--
 ---
 
 ## Final Thoughts
@@ -612,6 +626,8 @@ Recognizing the impact of developer satisfaction on productivity and creativity,
 {{% note %}}
 The rapid pace of technological change will necessitate a greater emphasis on continuous learning and skill development. Organizations will invest in training and development programs to help their teams keep up with new tools, practices, and technologies, enhancing both DevOps and DevEx.
 {{% /note %}}
+
+--->
 
 ---
 
