@@ -55,7 +55,7 @@ DevEx encompasses the journey of developers as they learn and deploy technology.
 {{% /fragment %}}
 
 {{% note %}}
-So we opened with an introduction on the topic of DevEx, but what really is it? DevEx encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+So what really is DevEx? DevEx encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
 {{% /note %}}
 
 ---
@@ -83,7 +83,7 @@ REF: O'Reilly "Learning the vi and Vim Editors"
 
 
 {{% note %}}
-I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew?
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew? 
 {{% /note %}}
 
 ---
@@ -95,7 +95,7 @@ I think a great example is the evolution of Integrated Development Environments 
 
 
 {{% note %}}
-Then we had Vim, and Emacs, and my personal favorite, `nano`.
+Then we had Vim, and Emacs, and my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time.
 {{% /note %}}
 
 ---
@@ -282,7 +282,7 @@ The IDE is just one example of the significant strides made in improving the dev
 - Directly impacts bottom line by enabling quicker time to market
 
 {{% note %}}
-In the highly competitive landscape of modern software development, DevEx really is that **key differentiator** that makes a company and/or their products and services stand out from the crowd. A positive DevEx translates into the **ability to attract top talent**, helps companies **increase team team performance and product quality**, have **more engaged and productive development teams**, and also **enhances a brand reputation, directly impacting the bottom line**
+In the **highly competitive landscape of modern software development, DevEx really is that key differentiator** that makes a company and/or their products and services stand out from the crowd. A positive DevEx translates into the **ability to attract top talent**, helps companies **increase team team performance and product quality**, have **more engaged and productive development teams**, and also **enhances a brand reputation, directly impacting the bottom line**
 
 
 has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
@@ -341,7 +341,7 @@ The integration of development environments with CI/CD pipelines and DevOps prac
 - Developer Efficiencies
 
 {{% note %}}
-Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in things like how we deploy software, infrastructure as code, efficiencies, and really many more.
+Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in things like how we deploy software, infrastructure as code, developer efficiencies, and really many more.
 
 - Deployment Pipelines
 - Infrastructure as Code (IaC) Practices
@@ -358,7 +358,7 @@ Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in thi
 - Enables DevOps principles to take hold within an organization
 
 {{% note %}}
-A good DevEx facilitates **smoother transitions between your dev and ops teams**, which helps to **minimize bottlenecks and enhance collaboration**. Proper feedback loops are part of DevOps, and with them in place a positive DevEx **ensures they're efficient and productive**, which **enables, or enhances as the case may be, DevOps principles** to take firm hold within an organization.
+A good DevEx facilitates **smoother transitions between your dev and ops teams**, which helps to **minimize bottlenecks and enhance collaboration**. Proper **feedback loops are part of DevOps**, and with them in place a positive DevEx **ensures they're efficient and productive**, which **enables, or enhances as the case may be, DevOps principles** to take firm hold within an organization.
 {{% /note %}}
 
 
@@ -412,7 +412,7 @@ Effective **communication** is the backbone of DevOps, ensuring that all members
 - Shared Responsibility
 
 {{% note %}}
-**Shared Responsibility** in DevOps means that all team members are collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations. This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+**Shared Responsibility** in DevOps means that all team members are **collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations.** This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
 {{% /note %}}
 
 ---
@@ -429,11 +429,11 @@ By integrating DevEx with these core DevOps principles, organizations can build 
 
 ### DevEx & DevOps Alignment
 
-- Enhanced collaboration via tools and processes
+- Enhanced collaboration _**via tools and processes**_
 
 
 {{% note %}}
-When we have alignment between DevEx and DevOps, we'll see it through **Enhanced Collaboration:** by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. Those tools and processes include (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.
+When we have alignment between DevEx and DevOps, we'll see it through **Enhanced Collaboration:** by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. Those tools and processes include (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. **By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.**
 {{% /note %}}
 
 ---
@@ -442,11 +442,11 @@ When we have alignment between DevEx and DevOps, we'll see it through **Enhanced
 
 ### DevEx & DevOps Alignment
 
-- Enhanced collaboration via tools and processes
-- Improving communication via streamlined info sharing and feedback
+- Enhanced collaboration **_via tools and processes_**
+- Improving communication **_via streamlined info sharing and feedback_**
 
 {{% note %}}
-**Improving Communication** is seen through platforms and tools that streamline information sharing and feedback across teams. Tools such as continuous integration/continuous deployment (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
+**Improving Communication** is seen through platforms and tools that streamline information sharing and feedback across teams. Tools such as (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
 {{% /note %}}
 
 ---
@@ -455,12 +455,12 @@ When we have alignment between DevEx and DevOps, we'll see it through **Enhanced
 
 ### DevEx & DevOps Alignment
 
-- Enhanced collaboration via tools and processes
-- Improving communication via streamlined info sharing and feedback
-- Shared responsibility by empowering all teams with access and information
+- Enhanced collaboration **_via tools and processes_**
+- Improving communication **_via streamlined info sharing and feedback_**
+- Shared responsibility **_by empowering all teams with access and information_**
 
 {{% note %}}
-**Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.
+**Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. **By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.**
 {{% /note %}}
 
 ---
