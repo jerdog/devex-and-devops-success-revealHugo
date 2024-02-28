@@ -647,7 +647,7 @@ ruthlessly eliminating barriers (and blockers) that keep your developers from be
         <div class="col" style="text-align: center;">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
             <img src="/images/DevWeekSF-DevEx-talk-qrcode.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
-            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevWeekSF-DevEx-Talk">https://bit.ly/DevWeekSF-DevEx-Talk</a></p>
+            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevWeekSF-Virtual">https://bit.ly/DevWeekSF-DevEx-Talk</a></p>
         </div>
         <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
