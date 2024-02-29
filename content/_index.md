@@ -515,11 +515,19 @@ The convergence of DevEx and DevOps represents a strategic alignment that breaks
 
 ### Better Practices
 
+<!--
 <p class="fragment">Empower with the right tools</p>
 <p class="fragment">Encourage Cross-functional Teams</p>
 <p class="fragment">Implement Feedback Loops</p>
 <p class="fragment">Focus on Automation</p>
 <p class="fragment">Invest in Training and Development</p>
+-->
+
+- Empower with the right tools
+- Encourage Cross-functional Teams
+- Implement Feedback Loops
+- Focus on Automation
+- Invest in Training and Development
 
 {{% note %}}
 Some of the better practices to think about in enabling Good DevEx & DevOps is:
@@ -535,9 +543,16 @@ Some of the better practices to think about in enabling Good DevEx & DevOps is:
 ## DevEx Impact
 ### Productivity
 
+<!--
 <p class="fragment">Streamlined Development Environments</p>
 <p class="fragment">Integrated and Automated Toolchains</p>
 <p class="fragment">Efficient Collaboration Platforms</p>
+-->
+
+- Streamlined Development Environments
+- Integrated and Automated Toolchains
+- Efficient Collaboration Platforms
+
 
 {{% note %}}
 There is a direct correlation with productivity: When developers spend less time grappling with cumbersome processes and tooling and more on actual coding, innovation thrives.   
@@ -553,11 +568,17 @@ The use of **IDEs and automation tools** (for testing, building, and deployment)
 ## DevEx Impact
 ### Morale
 
+<!--
 <p class="fragment">Autonomy and Empowerment</p>
 <p class="fragment">Recognition and Achievement</p>
 <p class="fragment">Reduced Frustration and Burnout</p>
 <p class="fragment">Learning and Growth Opportunities</p>
+-->
 
+- Autonomy and Empowerment
+- Recognition and Achievement
+- Reduced Frustration and Burnout
+- Learning and Growth Opportunities
 
 {{% note %}}
 And then there are the psychological aspects. A good DevEx means less frustration and burnout, leading to higher job satisfaction and retention rates. Developers feel empowered and valued, which in turn boosts their motivation and engagement.  
