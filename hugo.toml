@@ -11,6 +11,8 @@ theme = ["github.com/dzello/reveal-hugo"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
       wrapStandAloneImageWithinParagraph = true
       [markup.goldmark.parser.attribute]
         block = true
@@ -28,10 +30,10 @@ theme = ["github.com/dzello/reveal-hugo"]
     left = '80%'
     width = '15%'
   [params.logo-btm-left]
-    src = '/images/developerweek-sf-logo.png'  # autogen from https://picsum.photos/
-    top = '90%'
+    src = '/images/devnexus-logo.png'  # autogen from https://picsum.photos/
+    top = '91%'
     left = '5%'
-    width = '15%'
+    width = '20%'
     #opacity = '0.5'
   [params.appearance]
     font = 'Open Sans'
