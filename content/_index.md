@@ -36,7 +36,7 @@ From the simplicity of the setup process to the complexity of solving production
         <div class="col">
             <h4 style="color: rgb(111, 168, 220);">Jeremy Meiss</h4>
             <p style="font-size: .75em;">Co-Founder</p>
-            <p style="font-size: .75em; font-style: italic;">Stealth DevEx Startup</p>
+            <p style="font-size: .75em; font-style: italic;">DevEx Consultancy</p>
         </div>
         <div class="col"><img src="/images/profile-pic.jpg" width="60%"></div>
     </div>
@@ -95,7 +95,15 @@ I think a great example is the evolution of Integrated Development Environments 
 
 
 {{% note %}}
-Then we had Vim, and Emacs, and my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time.
+Then we had Vim, and Emacs, and my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. 
+{{% /note %}}
+
+---
+
+![exit vim](/images/slides/exit-vim.gif)
+
+{{% note %}}
+Saving the planet, one less computer thrown away because of Vim at a time.
 {{% /note %}}
 
 ---
@@ -282,7 +290,7 @@ The IDE is just one example of the significant strides made in improving the dev
 - Directly impacts bottom line by enabling quicker time to market
 
 {{% note %}}
-In the **highly competitive landscape of modern software development, DevEx really is that key differentiator** that makes a company and/or their products and services stand out from the crowd. A positive DevEx translates into the **ability to attract top talent**, helps companies **increase team team performance and product quality**, have **more engaged and productive development teams**, and also **enhances a brand reputation, directly impacting the bottom line**
+In the **highly competitive landscape of modern software development, optimizing the DevEx really is that key differentiator** that makes a company and/or their products and services stand out from the crowd. A positive DevEx translates into the **ability to attract top talent**, helps companies **increase team team performance and product quality**, have **more engaged and productive development teams**, and also **enhances a brand reputation, directly impacting the bottom line**
 
 
 has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
@@ -515,13 +523,60 @@ The convergence of DevEx and DevOps represents a strategic alignment that breaks
 
 ### Better Practices
 
-<!--
-<p class="fragment">Empower with the right tools</p>
-<p class="fragment">Encourage Cross-functional Teams</p>
-<p class="fragment">Implement Feedback Loops</p>
-<p class="fragment">Focus on Automation</p>
-<p class="fragment">Invest in Training and Development</p>
--->
+- Empower with the right tools
+
+{{% note %}}
+Some of the better practices to think about in enabling Good DevEx & DevOps is:
+**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+### Better Practices
+
+- Empower with the right tools
+- Encourage Cross-functional Teams
+
+{{% note %}}
+**Promote the formation of cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+### Better Practices
+
+- Empower with the right tools
+- Encourage Cross-functional Teams
+- Implement Feedback Loops
+
+{{% note %}}
+**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+### Better Practices
+
+- Empower with the right tools
+- Encourage Cross-functional Teams
+- Implement Feedback Loops
+- Focus on Automation
+
+{{% note %}}
+**Automate repetitive and manual tasks wherever possible** to reduce toil and free up team members to focus on more strategic activities. This includes automating testing, deployments, and infrastructure provisioning.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+### Better Practices
 
 - Empower with the right tools
 - Encourage Cross-functional Teams
@@ -530,11 +585,6 @@ The convergence of DevEx and DevOps represents a strategic alignment that breaks
 - Invest in Training and Development
 
 {{% note %}}
-Some of the better practices to think about in enabling Good DevEx & DevOps is:
-**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs.  
-**Promote the formation of cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
-**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.  
-**Automate repetitive and manual tasks wherever possible** to reduce toil and free up team members to focus on more strategic activities. This includes automating testing, deployments, and infrastructure provisioning.  
 **Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.  
 {{% /note %}}
 
@@ -543,11 +593,34 @@ Some of the better practices to think about in enabling Good DevEx & DevOps is:
 ## DevEx Impact
 ### Productivity
 
-<!--
-<p class="fragment">Streamlined Development Environments</p>
-<p class="fragment">Integrated and Automated Toolchains</p>
-<p class="fragment">Efficient Collaboration Platforms</p>
--->
+- Streamlined Development Environments
+
+{{% note %}}
+There is a direct correlation with productivity: When developers spend less time grappling with cumbersome processes and tooling and more on actual coding, innovation thrives.   
+**When organizations provide developers with well-configured, easy-to-use development environments**, they can significantly reduce setup times and minimize configuration-related delays. We've seen that with Docker and containerization - leading to faster start times on new projects and less time spent on environment-related issues.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+## DevEx Impact
+### Productivity
+
+- Streamlined Development Environments
+- Integrated and Automated Toolchains
+
+
+{{% note %}}
+The use of **IDEs and automation tools** (for testing, building, and deployment) enhances productivity by automating repetitive tasks. Tools like Visual Studio Code, Jenkins, and GitLab CI/CD automate code analysis, builds, tests, and deployments, allowing developers to focus on coding and problem-solving rather than manual processes.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+## DevEx Impact
+### Productivity
 
 - Streamlined Development Environments
 - Integrated and Automated Toolchains
@@ -555,12 +628,7 @@ Some of the better practices to think about in enabling Good DevEx & DevOps is:
 
 
 {{% note %}}
-There is a direct correlation with productivity: When developers spend less time grappling with cumbersome processes and tooling and more on actual coding, innovation thrives.   
-**When organizations provide developers with well-configured, easy-to-use development environments**, they can significantly reduce setup times and minimize configuration-related delays. We've seen that with Docker and containerization - leading to faster start times on new projects and less time spent on environment-related issues.
-The use of **IDEs and automation tools** (for testing, building, and deployment) enhances productivity by automating repetitive tasks. Tools like Visual Studio Code, Jenkins, and GitLab CI/CD automate code analysis, builds, tests, and deployments, allowing developers to focus on coding and problem-solving rather than manual processes.
 **Platforms that facilitate easy collaboration and communication**, such as Slack, JIRA, and GitHub, help streamline the development process. These tools support real-time communication, issue tracking, and code reviews, enabling developers to collaborate effectively, regardless of their physical location.
-
-
 {{% /note %}}
 
 ---
@@ -568,12 +636,48 @@ The use of **IDEs and automation tools** (for testing, building, and deployment)
 ## DevEx Impact
 ### Morale
 
-<!--
-<p class="fragment">Autonomy and Empowerment</p>
-<p class="fragment">Recognition and Achievement</p>
-<p class="fragment">Reduced Frustration and Burnout</p>
-<p class="fragment">Learning and Growth Opportunities</p>
--->
+- Autonomy and Empowerment
+
+{{% note %}}
+And then there are the psychological aspects. A good DevEx means less frustration and burnout, leading to higher job satisfaction and retention rates. Developers feel empowered and valued, which in turn boosts their motivation and engagement.  
+Providing developers with self-service platforms and tools that allow them to make decisions and manage their workflows can significantly boost their sense of **Autonomy and Empowerment:**. Things like self-service portals for provisioning infrastructure or deploying applications enable developers to execute tasks without waiting for operations or IT support, fostering a sense of ownership and independence.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+## DevEx Impact
+### Morale
+
+- Autonomy and Empowerment
+- Recognition and Achievement
+
+{{% note %}}
+Tools that facilitate continuous integration and delivery (CI/CD) not only improve productivity but also allow for **quicker feedback** on developers' work. This immediate feedback loop, where developers can see their contributions go live and make an impact promptly, can be incredibly satisfying and motivating, leading to a positive **feedback cycle of achievement and recognition**.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+## DevEx Impact
+### Morale
+
+- Autonomy and Empowerment
+- Recognition and Achievement
+- Reduced Frustration and Burnout
+
+{{% note %}}
+By minimizing the friction in the development process—through better tooling, clearer processes, and supportive team dynamics—organizations can significantly **reduce developer frustration and the risk of burnout**. Developers spending less time on tedious, repetitive tasks or waiting for dependencies, have more energy and enthusiasm for creative and challenging work, leading to higher job satisfaction.
+{{% /note %}}
+
+---
+
+{{< slide transition="none" >}}
+
+## DevEx Impact
+### Morale
 
 - Autonomy and Empowerment
 - Recognition and Achievement
@@ -581,13 +685,15 @@ The use of **IDEs and automation tools** (for testing, building, and deployment)
 - Learning and Growth Opportunities
 
 {{% note %}}
-And then there are the psychological aspects. A good DevEx means less frustration and burnout, leading to higher job satisfaction and retention rates. Developers feel empowered and valued, which in turn boosts their motivation and engagement.  
-Providing developers with self-service platforms and tools that allow them to make decisions and manage their workflows can significantly boost their sense of **Autonomy and Empowerment:**. Things like self-service portals for provisioning infrastructure or deploying applications enable developers to execute tasks without waiting for operations or IT support, fostering a sense of ownership and independence.  
-Tools that facilitate continuous integration and delivery (CI/CD) not only improve productivity but also allow for **quicker feedback** on developers' work. This immediate feedback loop, where developers can see their contributions go live and make an impact promptly, can be incredibly satisfying and motivating, leading to a positive feedback cycle of achievement and recognition.  
-By minimizing the friction in the development process—through better tooling, clearer processes, and supportive team dynamics—organizations can significantly **reduce developer frustration and the risk of burnout**. Developers spending less time on tedious, repetitive tasks or waiting for dependencies, have more energy and enthusiasm for creative and challenging work, leading to higher job satisfaction.
 *A positive DevEx often includes access to **resources, training, and opportunities** to explore new technologies and practices. This fosters a culture of continuous learning and professional growth, which can greatly enhance morale. Developers feel valued and supported in their career paths, contributing to a more engaged and motivated team.
+{{% /note %}}
 
-a thoughtful focus on DevEx can lead to tangible improvements in productivity and morale, which are crucial for the success and sustainability of development teams in the fast-paced and ever-evolving landscape of software development.  
+---
+
+![a thoughtful devex focus](/images/slides/thoughtful-devex-focus.jpg)
+
+{{% note %}}
+a thoughtful focus on DevEx can lead to tangible improvements in productivity and morale, which are crucial for the success and sustainability of development teams in the fast-paced and ever-evolving landscape of software development.
 {{% /note %}}
 
 ---
@@ -600,7 +706,6 @@ a thoughtful focus on DevEx can lead to tangible improvements in productivity an
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
 {{% /note %}}
 
-<!--
 ---
 
 ## Final Thoughts
@@ -648,8 +753,6 @@ Recognizing the impact of developer satisfaction on productivity and creativity,
 The rapid pace of technological change will necessitate a greater emphasis on continuous learning and skill development. Organizations will invest in training and development programs to help their teams keep up with new tools, practices, and technologies, enhancing both DevOps and DevEx.
 {{% /note %}}
 
---->
-
 ---
 
 # DevEx is...
@@ -667,8 +770,6 @@ ruthlessly eliminating barriers (and blockers) that keep your developers from be
     <div class="multiCol">
         <div class="col" style="text-align: center;">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
-            <img src="/images/bit.ly_DevWeekSF-Virtual.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
-            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevWeekSF-Virtual">https://bit.ly/DevWeekSF-Virtual</a></p>
         </div>
         <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
