@@ -37,6 +37,7 @@ From the simplicity of the setup process to the complexity of solving production
             <h4 style="color: rgb(111, 168, 220);">Jeremy Meiss</h4>
             <p style="font-size: .75em;">Co-Founder, DevEx Consultant</p>
             <p style="font-size: .75em; font-style: italic;">DevEx Institute</p>
+            <p style="font-size: .5em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p>
         </div>
         <div class="col"><img src="/images/profile-pic.jpg" width="60%"></div>
     </div>
