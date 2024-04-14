@@ -8,24 +8,26 @@ width = "80%"
 +++
 {{< slide background-image="/images/slides/1-devex-central-devops-success.jpg" background-opacity="0.5" >}}
 
-## Developer Experience...
-### Central to DevOps Success
+# Developer Experience...
+## Central to DevOps Success
 
 ---
 
->### "DevEx - that's more about the frontend user experience, right?"
+## What is Developer Experience?
 
+![alt text](/images/slides/2-good-and-bad-devex.jpeg)
+{.r-stretch}
 
 {{% note %}}
-DevEx goes beyond just the frontend or user interface and extends to every aspect of a developer's interaction with your systems, including backend processes, APIs, deployment tools, and more.   
+From the simplicity of the setup process to the complexity of solving production issues, DevEx directly impacts developer productivity, satisfaction, and ultimately, the quality of the products they build and use.
 {{% /note %}}
 
 ---
 
-### DevEx is _more_ than your parent's software development lifecycle
+### DevEx is _more_ than just your parent's software development lifecycle
 
 {{% note %}}
-From the simplicity of the setup process to the complexity of solving production issues, DevEx directly impacts developer productivity, satisfaction, and ultimately, the quality of the products they build. As a result, it is part of the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. The ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+As a result, it is part of the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
 {{% /note %}}
 
 ---
@@ -35,8 +37,9 @@ From the simplicity of the setup process to the complexity of solving production
     <div class="multiCol">
         <div class="col">
             <h4 style="color: rgb(111, 168, 220);">Jeremy Meiss</h4>
-            <p style="font-size: .75em;">Co-Founder</p>
-            <p style="font-size: .75em; font-style: italic;">Stealth DevEx Startup</p>
+            <p style="font-size: .75em;">Co-Founder, DevEx Consultant</p>
+            <p style="font-size: .75em; font-style: italic;">DevEx Institute</p>
+            <p style="font-size: .5em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p>
         </div>
         <div class="col"><img src="/images/profile-pic.jpg" width="60%"></div>
     </div>
@@ -51,23 +54,24 @@ From the simplicity of the setup process to the complexity of solving production
 ## So what is DevEx?
 
 {{% fragment %}}
-DevEx encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+>_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
 {{% /fragment %}}
 
 {{% note %}}
-So what really is DevEx? DevEx encompasses the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+So what really is DevEx? ***FRAGMENT***
+DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
 {{% /note %}}
 
 ---
 
-### DevEx is about more than the traditional UI/UX focus
+### DevEx includes every interaction a developer has with systems, tools, and processes
 
 ![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
-DevEx encompasses so much more, including every interaction a developer has with systems, tools, and processes. 
+it is about every interaction a developer has with systems, tools, and processes.
 
-What are some of the examples that come to mind on where we've seen DevEx impact?
+I'm sure we could all think of a tool or service in which we had a positive experience.
 
 Here's one example:
 {{% /note %}}
@@ -75,7 +79,7 @@ Here's one example:
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### Early text editors
 
 ![USER FRIENDLY by Illiad, vi](/images/slides/httpatomoreillycomsourceoreillyimages2055076.png)
 {.r-stretch}
@@ -83,37 +87,50 @@ REF: O'Reilly "Learning the vi and Vim Editors"
 
 
 {{% note %}}
-I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew? 
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew? It was created in 1976 and included in the first BSD linux release.
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### Early text editors
 
-![vim logo](/images/slides/vim-logo.png)  ![emacs logo](/images/slides/emacs-logo.png)  ![nano logo](/images/slides/gnu-nano-logo.png)
-
-
-{{% note %}}
-Then we had Vim, and Emacs, and my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time.
-{{% /note %}}
-
----
-
-#### The evolution of the IDE
-##### Before the 1990s
-
-![hp softbench manuals](/images/slides/hp-softbench-manuals.jpg)
+![alt text](/images/slides/IDE_evolution-1.jpg)
 {.r-stretch}
 
 {{% note %}}
-One of the first IDEs with a plug-in concept was Softbench. HP Softbench was one of the first plug-in Integrated Development Environment (IDE) tool based on the UNIX operating system, UNIX tools and the X Window System. 
+Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time.
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### First plug-in IDE
+
+![alt text](/images/slides/IDE_evolution-2.jpg)
+{.r-stretch}
+
+{{% note %}}
+One of the first IDEs with a plug-in concept was HP Softbench, released in 1989. HP Softbench was one of the first plug-in IDEs, shipped with its own library, 
+{{% /note %}}
+
+---
+
+#### The evolution of the IDE
+##### First plug-in IDE
+
+![hp softbench manuals](/images/slides/hp-softbench-manuals.jpg)        ![HP Journal, June 1990 edition](/images/slides/hpjournal-june1990-hpsoftbench.jpg)
+{.r-stretch}
+REF: [HP Journal, June 1990 edition](http://hparchive.com/Journals/HPJ-1990-06.pdf)
+
+{{% note %}}
+and was extensively talked about in the June 1990 edition of the HP Journal. It's a fascinating read, as HP lays out their vision of what software architecture and development should be, including Automated Testing, distributed computing, integrated and interchangeable tools, and more. The link to the PDF is below - I highly recommend reading it
+{{% /note %}}
+
+<!-- ---
+
+#### The evolution of the IDE
+##### First plug-in IDE
 
 ![hp softbench ieee article](/images/slides/hp-softbench-ieee-paper.jpg)
 {.r-stretch}
@@ -121,61 +138,39 @@ REF: https://ieeexplore.ieee.org/document/182074
 
 {{% note %}}
 Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 
-{{% /note %}}
+{{% /note %}} -->
 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### Early reviews
 
->#### "...the use of an IDE was not well received by developers since it would fence in their creativity."
+> "...the use of an IDE was not well received by developers since it would fence in their creativity."
+
 REF: _Computerwoche_ ("Computer Week", German counterpart of American magazine _Computer World_), 1995.
 
 {{% note %}}
-In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
+The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
-##### Before the 1990s
+##### Native IDEs in the 1980s
 
-![apple-MPW](/images/slides/apple-mpw.png)  ![apple-MPW](/images/slides/turbo-pascal-window.png)  
-
-{{% note %}}
-Apple Macintosh's had Macintosh Programmer's Workshop and Turbo Pascal for native IDEs. 
-{{% /note %}}
-
----
-
-#### The evolution of the IDE
-##### The Web and the 1990s
-
-![WebMagic](/images/slides/webmagic-screen.jpg)  
-
-
-{{% note %}}
-As we hit the 90s, the early iterations of IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. 
-{{% /note %}}
-
----
-
-#### The evolution of the IDE
-##### The Web and the 1990s
-
-![Frontpage](/images/slides/frontpage.png)
+ ![alt text](/images/slides/IDE_evolution-3.jpg)
 {.r-stretch}
 
 {{% note %}}
-FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year. 
+A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and Apple's Macintosh Programmer's Workshop in 1986. 
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
-##### Cross-platform and the 1990s
+##### Cross-platform in the 1990s
 
-![Borland Delphi](/images/slides/borland-delphi.png)
+![alt text](/images/slides/IDE_evolution-4.jpg)
 {.r-stretch}
 
 {{% note %}}
@@ -185,52 +180,70 @@ Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 ---
 
 #### The evolution of the IDE
-##### Early iterations
-###### (Late 1990s to Early 2000s) 
+##### The Web and the 1990s
 
-- Macromedia Dreamweaver in late 1997 (what was it called before?)</p>
-- Visual Studio in late 1997
-- FrontPage 2000 in 1999
-- Netbeans in 2000
-- Eclipse in 2001 (IBM kickstarted)
+![alt text](/images/slides/IDE_evolution-5.jpg)
+{.r-stretch}
 
 {{% note %}}
-Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) and was awesome because of all of the scripts and integrations and controls you could add. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, and Eclipse was kickstarted and released in 2001 by IBM.
+As we hit the 90s, and the launch of the World Wide Web, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year after Microsoft acquired it from Vermeer.
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
 ##### Feature & Usability Advancements
-###### Mid-2000s to 2010s
+###### (Late 1990s to 2000s) 
 
-- IntelliJ IDEA
-- Eclipse
-- Visual Studio
+![alt text](/images/slides/IDE_evolution-6.jpg)
+{.r-stretch}
+
 
 {{% note %}}
-**Enhanced Functionality:** IDEs like IntelliJ IDEA and later versions of Eclipse and Visual Studio began to offer more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration.
+Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) and was awesome because of all of the scripts and integrations and controls you could add. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, with IntelliJ and Eclipse following in 2001 along with Visual Studio which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. 
 **Language Support and Framework Integration:** There was a noticeable increase in support for multiple programming languages and frameworks, making these IDEs more versatile.
 {{% /note %}}
 
 ---
 
 #### The evolution of the IDE
-##### Lightweight and Cloud-Based
+##### Lightweight and configurable
 ###### 2010s to Now
 
-- Sublime Text, Atom, VSCode (lightweight)
-- AWS Cloud9, GitHub Codespaces, Gitpod (cloud-based)
+![alt text](/images/slides/IDE_evolution-7.jpg)
+{.r-stretch}
 
 {{% note %}}
 **Lightweight IDEs:** Tools like Sublime Text and later Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable.
-**Cloud-Based IDEs:** The introduction of cloud-based IDEs like AWS Cloud9 and GitHub Codespaces revolutionized DevEx by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup.
 {{% /note %}}
 
 ---
 
-##### IDEs are a result of DevEx
-###### Things we never knew we needed...
+#### The evolution of the IDE
+##### Cloud-based options
+###### Now
+
+![alt text](/images/slides/IDE_evolution-8.jpg)
+{.r-stretch}
+
+{{% note %}}
+**Cloud-Based IDEs:** The introduction of cloud-based IDEs like AWS Cloud9, GitPod, and GitHub Codespaces have revolutionized DevEx by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup.
+{{% /note %}}
+
+---
+
+### IDEs are a result of DevEx
+#### Things we never knew we needed...
+
+From this:
+> "...the use of an IDE was not well received by developers since it would fence in their creativity."
+
+---
+
+### IDEs are a result of DevEx
+#### Things we never knew we needed...
+
+To this:
 
 - Code completion
 - Syntax highlighting
@@ -241,10 +254,25 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 - Pair programming
 
 {{% note %}}
-I go through all of that to illustrate how the overall Developer Experience with software development has improved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s. 
+to this:
+- Code completion
+- Syntax highlighting
+- Debugging
+- VCS integration (no more FTPing files around)
+- Multi-language support
+- Framework integration
+- Pair programming
+{{% /note %}}
 
+---
 
-One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities. Instead, it provides the same set of capabilities as one cohesive unit. Reducing setup time can increase developer productivity, especially in cases where learning to use the IDE is faster than manually integrating and learning all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced, thus allowing developers to debug code much faster and more easily with an IDE.
+### IDE Evolution 
+
+![alt text](/images/slides/IDE_evolution.jpg)
+{.r-stretch}
+
+{{% note %}}
+I go through all of that to illustrate how the overall Developer Experience with software development has improved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s.
 {{% /note %}}
 
 ---
@@ -261,18 +289,18 @@ The IDE is just one example of the significant strides made in improving the dev
 {{% /note %}}
 
 -->
----
+
 
 {{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
 
 
 {{% note %}}
 ### Modern Development
-The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity. 
+The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
 ---
-
+<!-- 
 #### DevEx is a Key Differentiator
 
 - Critical differentiator for attracting & retaining top talent
@@ -288,7 +316,7 @@ In the **highly competitive landscape of modern software development, DevEx real
 has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
 {{% /note %}}
 
----
+--- -->
 
 #### Dev Environment Setup
 ##### Manual configuration
@@ -378,41 +406,81 @@ A few of the core DevOps principles really bring this all together.
 
 ---
 
-{{< slide transition="slide-in none" >}}
+{{< slide transition="fade fade" >}}
 
-### Core DevOps Principles
+### DevOps Principles + DevOps alignment
 
 - Collaboration
 
 {{% note %}}
-**Collaboration** in DevOps transcends traditional team boundaries, and fosters a culture where developers, operations, and other stakeholders work closely together throughout the entire software development lifecycle. This encourages the sharing of knowledge, skills, and efforts to achieve common goals, leading to faster problem-solving, innovation, and a more cohesive product development process. **It is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**.
+**Collaboration** in DevOps transcends traditional team boundaries, and **is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**. It's culture first. 
 {{% /note %}}
 
 ---
 
-{{< slide transition="fade-in none" >}}
+{{< slide transition="fade fade" >}}
 
-### Core DevOps Principles
+### DevOps Principles + DevOps alignment
+
+- Enhanced collaboration _**via tools and processes**_
+
+
+{{% note %}}
+When we have alignment between DevEx and DevOps, we'll see it through **Enhanced Collaboration:** by providing tools and processes that **reduce friction and barriers in the development process, enabling teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.**
+{{% /note %}}
+
+---
+
+{{< slide transition="fade fade" >}}
+
+### DevOps Principles + DevOps alignment
 
 - Collaboration
 - Communication
 
 {{% note %}}
-Effective **communication** is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. This principle emphasizes open, continuous dialogue and feedback loops between teams, which helps in identifying and addressing issues early, aligning on project goals, and facilitating seamless handoffs between stages of development.
+Effective **communication** is the backbone of DevOps, ensuring that all members of the development, operations, and broader organizational team are on the same page. 
 {{% /note %}}
 
 ---
 
-{{< slide transition="none" >}}
+{{< slide transition="fade fade" >}}
 
-### Core DevOps Principles
+### DevEx Principles + DevOps Alignment
+
+- Enhanced collaboration **_via tools and processes_**
+- Improving communication **_via streamlined info sharing and feedback_**
+
+{{% note %}}
+**Improving Communication** is seen through platforms and tools that streamline information sharing and feedback across teams. That includes your CI/CD pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues.
+{{% /note %}}
+
+---
+
+{{< slide transition="fade fade" >}}
+
+### DevOps Principles + DevOps alignment
 
 - Collaboration
 - Communication
 - Shared Responsibility
 
 {{% note %}}
-**Shared Responsibility** in DevOps means that all team members are **collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations.** This principle encourages everyone to take part in tasks such as testing, deployment, monitoring, and troubleshooting, promoting a sense of ownership and a proactive approach to problem-solving across the lifecycle. It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+**Shared Responsibility** in DevOps means that all team members are **collectively accountable for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations.** It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+{{% /note %}}
+
+---
+
+{{< slide transition="fade fade" >}}
+
+### DevOps Principles + DevOps alignment
+
+- Enhanced collaboration **_via tools and processes_**
+- Improving communication **_via streamlined info sharing and feedback_**
+- Shared responsibility **_by empowering all teams with access and information_**
+
+{{% note %}}
+**Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. **By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.**
 {{% /note %}}
 
 ---
@@ -425,50 +493,9 @@ By integrating DevEx with these core DevOps principles, organizations can build 
 
 ---
 
-{{< slide transition="slide-in none" >}}
-
-### DevEx & DevOps Alignment
-
-- Enhanced collaboration _**via tools and processes**_
-
-
-{{% note %}}
-When we have alignment between DevEx and DevOps, we'll see it through **Enhanced Collaboration:** by providing tools and processes that make it easier for developers, operations, and other stakeholders to work together. Those tools and processes include (IDEs), version control systems, and collaborative platforms that support real-time co-editing and issue tracking. **By reducing friction and barriers in the development process, DevEx enables teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.**
-{{% /note %}}
-
----
-
-{{< slide transition="fade-in none" >}}
-
-### DevEx & DevOps Alignment
-
-- Enhanced collaboration **_via tools and processes_**
-- Improving communication **_via streamlined info sharing and feedback_**
-
-{{% note %}}
-**Improving Communication** is seen through platforms and tools that streamline information sharing and feedback across teams. Tools such as (CI/CD) pipelines, shared dashboards, and automated alerting systems ensure that all team members have visibility into the development process, can easily share updates, and quickly address issues. This transparency and ease of communication help maintain alignment on project goals and accelerate decision-making processes.
-{{% /note %}}
-
----
-
-{{< slide transition="none" >}}
-
-### DevEx & DevOps Alignment
-
-- Enhanced collaboration **_via tools and processes_**
-- Improving communication **_via streamlined info sharing and feedback_**
-- Shared responsibility **_by empowering all teams with access and information_**
-
-{{% note %}}
-**Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. This includes giving developers access to deployment and monitoring tools, enabling operations to participate in early stages of design and planning, and ensuring that everyone has the skills and knowledge to contribute to quality assurance, security, and performance optimization. **By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.**
-{{% /note %}}
-
----
-
 {{< slide background="/images/slides/39-devex-devops-one.jpg" background-opacity=".5" >}}
 
 ## DevEx and DevOps are One
-
 
 {{% note %}}
 a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. There's no better example than what we've seen with Platform Engineering the last few years.
