@@ -64,4 +64,4 @@ theme = ["github.com/dzello/reveal-hugo"]
     disable_layout = false
     display = 'block'
     load_default_plugins = true
-    
+    show_notes = false
