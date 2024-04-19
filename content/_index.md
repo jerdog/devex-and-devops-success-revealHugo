@@ -15,7 +15,7 @@ width = "80%"
 
 ## What is Developer Experience?
 
-![alt text](/images/slides/2-good-and-bad-devex.jpeg)
+![good and bad devex](/images/slides/2-good-and-bad-devex.jpeg)
 {.r-stretch}
 
 {{% note %}}
@@ -53,13 +53,11 @@ DevEx is an integral part of the entire development lifecycle, as a direct resul
 
 ## So what is DevEx?
 
-{{% fragment %}}
 >_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
 {{% /fragment %}}
 
 {{% note %}}
-Let's start with a definition of DevEx? ***FRAGMENT***
-DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
 {{% /note %}}
 
 ---
@@ -73,7 +71,7 @@ it is about every interaction a developer has with systems, tools, and processes
 
 I'm sure we could all think of a tool or service in which we had a positive experience, but probably have more in mind that you had a negative experience.
 
-Here's one example:
+Here's an example of how Developer Experience has evolved a set of tools and practices:
 {{% /note %}}
 
 ---
