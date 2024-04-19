@@ -9,8 +9,8 @@ width = "80%"
 
 {{< slide background-image="/images/slides/1-devex-central-devops-success.jpg" background-opacity="0.5" >}}
 
-# Developer Experience...
-## Central to DevOps Success
+## Developer Experience...
+### Central to DevOps Success
 
 ---
 
@@ -54,7 +54,9 @@ DevEx is an integral part of the entire development lifecycle, as a direct resul
 
 ## So what is DevEx?
 
->_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_]
+>_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
+
+ -_Jessica West, Co-Founder, DevEx Institute_
 
 {{% note %}}
 Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
