@@ -6,10 +6,11 @@ outputs = ["Reveal"]
 width = "80%"
 
 +++
+
 {{< slide background-image="/images/slides/1-devex-central-devops-success.jpg" background-opacity="0.5" >}}
 
-# Developer Experience...
-## Central to DevOps Success
+## Developer Experience...
+### Central to DevOps Success
 
 ---
 
@@ -54,7 +55,8 @@ DevEx is an integral part of the entire development lifecycle, as a direct resul
 ## So what is DevEx?
 
 >_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
-{{% /fragment %}}
+
+ -_Jessica West, Co-Founder, DevEx Institute_
 
 {{% note %}}
 Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
@@ -685,8 +687,6 @@ ruthlessly eliminating barriers (and blockers) that keep your developers from be
     <div class="multiCol">
         <div class="col" style="text-align: center;">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
-            <img src="/images/bit.ly_DevWeekSF-Virtual.png" alt="DevEx Talk QR Code" style="width: 100%; max-width: 200px; margin: 0 auto;">
-            <p align="center" style="font-size: .4em;"><a href="https://bit.ly/DevWeekSF-Virtual">https://bit.ly/DevWeekSF-Virtual</a></p>
         </div>
         <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
