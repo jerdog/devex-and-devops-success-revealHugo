@@ -237,6 +237,10 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 From this:
 > "...the use of an IDE was not well received by developers since it would fence in their creativity."
 
+{{% note %}}
+We went from this sentiment about IDEs...
+{{% /note %}}
+
 ---
 
 ### IDEs are a result of DevEx
@@ -677,7 +681,7 @@ The rapid pace of technological change will necessitate a greater emphasis on co
 >### "ruthlessly eliminating barriers (and blockers) that keep your developers from being successful"
 
 {{% note %}}
-ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.
+I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.
 {{% /note %}}
 
 ---

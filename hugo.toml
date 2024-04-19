@@ -28,10 +28,10 @@ theme = ["github.com/dzello/reveal-hugo"]
     left = '80%'
     width = '15%'
   [params.logo-btm-left]
-    src = '/images/OSSNA-2024-logo.png'  # autogen from https://picsum.photos/
-    top = '85%'
+    src = '/images/infobip-shift-logo-white.png'  # autogen from https://picsum.photos/
+    top = '88%'
     left = '5%'
-    width = '10%'
+    width = '12%'
     #opacity = '0.5'
   [params.appearance]
     font = 'Open Sans'
