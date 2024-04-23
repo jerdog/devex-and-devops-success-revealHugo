@@ -706,6 +706,7 @@ I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (an
         </div>
         <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
+            <img src="/images/website-icon.png" height="50px" style="vertical-align: middle; margin: 10px;">speaking.jmeiss.me<br />
             <img src="/images/linkedin.png" height="50px" style="vertical-align: middle; margin: 10px;">/in/jeremymeiss<br />
             <img src="/images/twitter.png" height="50px" style="vertical-align: middle; margin: 10px;">@IAmJerdog<br />
             <img src="/images/devto.png" height="50px" style="vertical-align: middle; margin: 10px;">@jerdog<br />
