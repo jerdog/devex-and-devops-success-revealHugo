@@ -14,6 +14,10 @@ width = "80%"
 
 ---
 
+{{< slide background-image="/images/slides/landing-the-ship.jpg" >}}
+
+---
+
 ## What is Developer Experience?
 
 ![good and bad devex](/images/slides/2-good-and-bad-devex.jpeg)
