@@ -1,6 +1,6 @@
-baseURL = 'https://streamlining-devex.netlify.app/'
+baseURL = 'https://devex-central-to-devops-success.netlify.app/'
 languageCode = 'en-us'
-title = 'Streamlining DevEx: The Power of CI/CD Standardization and Interoperability'
+title = 'Developer Experience is central to DevOps Success'
 theme = ["github.com/dzello/reveal-hugo"]
 
 [outputFormats.Reveal]
@@ -28,7 +28,7 @@ theme = ["github.com/dzello/reveal-hugo"]
     left = '80%'
     width = '15%'
   [params.logo-btm-left]
-    src = '/images/OSSNA-2024-logo.png'  # autogen from https://picsum.photos/
+    src = '/images/dodAustin2024-logo.png'  # autogen from https://picsum.photos/
     top = '85%'
     left = '5%'
     width = '10%'
