@@ -13,3 +13,4 @@ hugo.linux
 /.hugo_build.lock
 # Local Netlify folder
 .netlify
+.vscode/
