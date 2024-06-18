@@ -142,7 +142,7 @@ and was extensively talked about in the June 1990 edition of the HP Journal. It'
 REF: _Computerwoche_ ("Computer Week", German counterpart of American magazine _Computer World_), 1995.
 
 {{% note %}}
-The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity. 
+The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity.
 {{% /note %}}
 
 ---
@@ -150,7 +150,7 @@ The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week i
 #### The evolution of the IDE
 ##### Native IDEs in the 1980s
 
- ![alt text](/images/slides/IDE_evolution-3.jpg)
+![alt text](/images/slides/IDE_evolution-3.jpg)
 {.r-stretch}
 
 {{% note %}}
@@ -178,7 +178,7 @@ Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 {.r-stretch}
 
 {{% note %}}
-With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? WebMagic on January 25, 1995 built by Silicon Graphics. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October of the same year after Microsoft acquired it from Vermeer.
+With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? SGI's WebMagic was released on January 25, 1995 built in less than 90 days. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
 {{% /note %}}
 
 ---
@@ -192,7 +192,7 @@ With the launch of the World Wide Web, and then its explosion of growth, the IDE
 
 
 {{% note %}}
-Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) and was awesome because of all of the scripts and integrations and controls you could add, and it was one of the first that had community-driven contributions to its extensibility. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, with IntelliJ and Eclipse following in 2001 along with Visual Studio which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile.
+Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, with IntelliJ and Eclipse following in 2001 along with Visual Studio which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile.
 {{% /note %}}
 
 ---
@@ -205,7 +205,7 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 {.r-stretch}
 
 {{% note %}}
-**Lightweight IDEs:** Tools like Sublime Text and later Atom and Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable.
+Late 2000s brought about more lightweight IDEs, like Sublime Text and later Atom and Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Event saw integrations with popular Ops tools as well.
 {{% /note %}}
 
 ---
@@ -218,7 +218,7 @@ Macromedia's Dreamweaver first came out in 1997 (after Macromedia acquisition of
 {.r-stretch}
 
 {{% note %}}
-**Cloud-Based IDEs:** The introduction of cloud-based IDEs like CodeAnywhere first in 2009, then AWS Cloud9, GitPod, and GitHub Codespaces have revolutionized DevEx by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup. We went from this...
+Then, we have seen the rise of the cloud and the arrival of cloud-based IDEs: The first was PHPanywhere (eventually becoming CodeAnywhere) in 2009, followed by Cloud9 in 2010 (before AWS bought it in 2016), Glitch (2018), GitPod (2019), GitHub Codespaces (2020), and Google’s Project IDX (2024). They've really changed the game by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup. We went from this sentiment about IDEs...
 {{% /note %}}
 
 ---
@@ -249,7 +249,7 @@ To this:
 - Pair programming
 
 {{% note %}}
-to this 
+to things we never knew we needed!
 - Code completion
 - Syntax highlighting
 - Debugging
@@ -261,7 +261,7 @@ to this
 
 ---
 
-### IDE Evolution 
+### IDE Evolution
 
 ![alt text](/images/slides/IDE_evolution.jpg)
 {.r-stretch}
@@ -272,20 +272,6 @@ I go through all of that to illustrate how the overall Developer Experience with
 
 ---
 
-<!--
----
-
-{{< slide background-image="/images/slides/23-improve-dev-experience.jpg" background-opacity="1" >}}
-
-
-{{% note %}}
-### Improving the Developer Experience
-The IDE is just one example of the significant strides made in improving the developer experience. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
-{{% /note %}}
-
--->
-
-
 {{< slide background-image="/images/slides/24-modern-dev-practices.jpg" background-opacity="1" >}}
 
 
@@ -294,8 +280,9 @@ The IDE is just one example of the significant strides made in improving the dev
 The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
----
 <!-- 
+---
+
 #### DevEx is a Key Differentiator
 
 - Critical differentiator for attracting & retaining top talent
@@ -311,9 +298,11 @@ In the **highly competitive landscape of modern software development, DevEx real
 has emerged as a **critical differentiator for attracting and retaining top talent**, as well as **ensuring high levels of team performance and product quality**. A positive DevEx translates into a **more engaged and productive development team**, capable of delivering innovative features and services at a faster pace. Companies that prioritize DevEx **demonstrate a commitment to developer well-being and efficiency**, which not only **enhances their brand reputation** among potential hires but also contributes to higher satisfaction and retention rates among existing staff. Furthermore, by streamlining development processes and fostering a culture of innovation, a strong DevEx strategy **directly impacts the bottom line** by enabling quicker time-to-market and more reliable products.
 {{% /note %}}
 
---- -->
+-->
 
-#### Dev Environment Setup
+--- 
+
+#### Server Environment Setup
 ##### Manual configuration
 ###### Late 1990s to Early 2000s
 
@@ -324,12 +313,12 @@ has emerged as a **critical differentiator for attracting and retaining top tale
 </p>
 
 {{% note %}}
-Another quick example is the setup of development and production environments. In the early days, setting up an environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Developers often struggled with version conflicts and compatibility issues between different tools and libraries. In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
+Another quick example is the setup of environments like dev, staging, and production. In the early days, setting up an environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Practitioners often struggled with version conflicts and compatibility issues between different tools and libraries. In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
 {{% /note %}}
 
 ---
 
-#### Dev Environment Setup
+#### Server Environment Setup
 ##### Config Mgmt & Containerization
 ###### Mid-2000s to 2010s
 
@@ -337,14 +326,14 @@ Another quick example is the setup of development and production environments. I
 ![Ansible Logo](/images/slides/ansible-logo.png)  ![Docker Logo](/images/slides/docker-logo.png)  
 
 {{% note %}}
-The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of development environments, reducing manual effort. 
+The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of environments, reducing manual effort.
 
-Docker’s introduction in 2013 marked a significant shift, allowing developers to package applications with all their dependencies into containers, ensuring consistency across environments.
+Docker’s introduction in 2013 marked a significant shift, allowing practitioners to package applications with all their dependencies into containers, ensuring consistency across environments.
 {{% /note %}}
 
 ---
 
-#### Dev Environment Setup
+#### Server Environment Setup
 ##### IaC and DevOps Integration
 ###### 2010s to Present
 
@@ -352,9 +341,9 @@ Docker’s introduction in 2013 marked a significant shift, allowing developers 
 ![Jenkins Logo](/images/slides/jenkins-logo.png)  ![GitHub Actions Logo](/images/slides/github-actions-logo.png)  
 
 {{% note %}}
-Tools like Terraform and AWS CloudFormation enabled developers to define infrastructure through code, making setup reproducible and scalable.
+Tools like Terraform and AWS CloudFormation enabled defining infrastructure through code, making setup reproducible and scalable.
 
-The integration of development environments with CI/CD pipelines and DevOps practices streamlined the development process, allowing for faster and more reliable builds and deployments.
+The integration of environments with CI/CD pipelines and DevOps practices streamlined the whole process, allowing for faster and more reliable builds and deployments.
 {{% /note %}}
 
 ---
@@ -369,22 +358,8 @@ The integration of development environments with CI/CD pipelines and DevOps prac
 Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in things like how we deploy software, infrastructure as code, developer efficiencies, and really many more.
 {{% /note %}}
 
+<!--
 ---
-
-### Good DevOps == Good DevEx
-
-- Facilitates smoother transitions between Dev and Ops
-- Minimizes bottlenecks with enhanced collaboration
-- Ensures feedback loops are efficient and productive
-- Enables DevOps principles to take hold within an organization
-
-{{% note %}}
-A good DevEx facilitates **smoother transitions between your dev and ops teams**, helps **minimize bottlenecks and enhances collaboration**. Proper **feedback loops are part of both DevEx & DevOps**, and with them in place you have a positive DevEx that **ensures those loops are efficient and productive**, all of which which **helps DevOps principles** to take firm hold within an organization.
-{{% /note %}}
-
-
----
-
 ## What is DevOps?
 
 >#### the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
@@ -397,6 +372,7 @@ the combination of practices and tools designed to increase an organization's ab
 A few of the core DevOps principles really bring this all together.
 {{% /note %}}
 
+-->
 ---
 
 {{< slide transition="fade fade" >}}
@@ -486,13 +462,29 @@ By integrating DevEx with these core DevOps principles, organizations can build 
 
 ---
 
+### Good DevOps == Good DevEx
+
+- Facilitates smoother transitions between Dev and Ops
+- Minimizes bottlenecks with enhanced collaboration
+- Ensures feedback loops are efficient and productive
+- Enables DevOps principles to take hold within an organization
+
+{{% note %}}
+A good DevEx facilitates **smoother transitions between your dev and ops teams**, helps **minimize bottlenecks and enhances collaboration**. Proper **feedback loops are part of both DevEx & DevOps**, and with them in place you have a positive DevEx that **ensures those loops are efficient and productive**, all of which which **helps DevOps principles** to take firm hold within an organization. There's no better example than what we've seen with Platform Engineering the last few years.
+{{% /note %}}
+
+---
+<!--
+---
+
 {{< slide background="/images/slides/39-devex-devops-one.jpg" background-opacity=".5" >}}
 
 ## DevOps and DevEx are One
 
 {{% note %}}
-a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. There's no better example than what we've seen with Platform Engineering the last few years.
+a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. 
 {{% /note %}}
+-->
 
 ---
 
@@ -528,20 +520,12 @@ Self-service platforms embody the evolution of DevEx by **empowering developers*
 
 {{% note %}}
 ### Bringing DevOps and DevEx Together
-When organizations prioritize DevEx, they ensure that devs have access to tools and processes that not only streamline their workflow but also facilitate a smoother transition of code from development to production. This alignment encourages both teams to work closely from the outset of projects, sharing insights, feedback, and responsibilities, which enhances the efficiency of the development lifecycle and leads to higher quality outcomes. Which strenghtens DevOps culture and practices.
+When organizations prioritize DevEx, they ensure that devs have access to tools and processes that not only streamline their workflow but also facilitate a smoother transition of code from development to production. This alignment encourages both teams to work closely from the outset of projects, sharing insights, feedback, and responsibilities, which enhances the efficiency of the development lifecycle and leads to higher quality outcomes. Which strenghtens the implementation of DevOps culture and practices.
 {{% /note %}}
 
 ---
 
-### Better Practices
-
-<!--
-<p class="fragment">Empower with the right tools</p>
-<p class="fragment">Encourage Cross-functional Teams</p>
-<p class="fragment">Implement Feedback Loops</p>
-<p class="fragment">Focus on Automation</p>
-<p class="fragment">Invest in Training and Development</p>
--->
+### Better Practices for leveling up your "DevOps Experience"
 
 - Empower with the right tools
 - Encourage Cross-functional Teams
