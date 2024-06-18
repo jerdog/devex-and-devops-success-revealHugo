@@ -29,10 +29,10 @@ From the simplicity of the setup process to the complexity of solving production
 
 ---
 
-### DevEx is _more_ than just your parent's software development lifecycle
+### DevEx is _more_ than just your parent's DevOps lifecycle
 
 {{% note %}}
-DevEx is an integral part of the entire development lifecycle, as a direct result of the choice of development tools, technologies, and platforms. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+DevEx is an integral part of the entire DevOps lifecycle, as a direct result of the choice of development tools, technologies, and platforms. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
 {{% /note %}}
 
 ---
@@ -45,6 +45,7 @@ DevEx is an integral part of the entire development lifecycle, as a direct resul
             <p style="font-size: .75em;">Co-Founder, DevEx Consultant</p>
             <p style="font-size: .75em; font-style: italic;">DevEx Institute</p>
             <p style="font-size: .5em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p>
+            <p style="font-size: .5em;">DevOpsDays Kansas City Organizer</p>
         </div>
         <div class="col"><img src="/images/profile-pic.jpg" width="60%"></div>
     </div>
@@ -115,7 +116,7 @@ Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not en
 {.r-stretch}
 
 {{% note %}}
-One of the first IDEs with a plug-in concept was HP Softbench, released in 1989. HP Softbench was one of the first plug-in IDEs, shipped with its own library, 
+One of the first IDEs with a plug-in concept was HP Softbench, released in 1989. HP Softbench was one of the first plug-in IDEs, shipped with its own library,
 {{% /note %}}
 
 ---
@@ -130,19 +131,6 @@ REF: [HP Journal, June 1990 edition](http://hparchive.com/Journals/HPJ-1990-06.p
 {{% note %}}
 and was extensively talked about in the June 1990 edition of the HP Journal. It's a fascinating read, as HP lays out their vision of what software architecture and development should be, including Automated Testing, distributed computing, integrated and interchangeable tools, and more. The link to the PDF is below - I highly recommend reading it
 {{% /note %}}
-
-<!-- ---
-
-#### The evolution of the IDE
-##### First plug-in IDE
-
-![hp softbench ieee article](/images/slides/hp-softbench-ieee-paper.jpg)
-{.r-stretch}
-REF: https://ieeexplore.ieee.org/document/182074
-
-{{% note %}}
-Paper written and submitted to IEEE in 1991 was about how "HP SoftBench-support for distributed working" https://ieeexplore.ieee.org/document/182074 
-{{% /note %}} -->
 
 ---
 
