@@ -69,12 +69,12 @@ Let's start with a definition of DevEx - DevEx is the journey of developers as t
 
 ---
 
-### DevEx includes every interaction a developer has with systems, tools, and processes
+### DevEx includes every interaction a developer/ops practitioner has with systems, tools, and processes
 
 ![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
-it is about every interaction a developer has with systems, tools, and processes.
+it is about every interaction a developer or ops practitioner has with systems, tools, and processes.
 
 I'm sure we could all think of a tool or service in which we had a positive experience, but probably have more in mind that you had a negative experience.
 
@@ -250,6 +250,8 @@ To this:
 
 {{% note %}}
 to things we never knew we needed!
+**Sasha's story about Visual Studio**
+
 - Code completion
 - Syntax highlighting
 - Debugging
@@ -556,10 +558,10 @@ The level of investment that a company invests in DevEx can be a reflection of a
 
 # DevEx is...
 
->### "ruthlessly eliminating barriers (and blockers) that keep your developers from being successful"
+>### "ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful"
 
 {{% note %}}
-I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your developers from being successful.
+I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
 {{% /note %}}
 
 ---
