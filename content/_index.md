@@ -37,6 +37,64 @@ DevEx is an integral part of the entire DevOps lifecycle, as a direct result of 
 
 ---
 
+{{< slide transition="slide-in fade" >}}
+
+### DevEx isn't new
+
+![devex isn't new](/images/slides/cornell-devex.jpg)
+{.r-stretch}
+REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
+
+{{% note %}}
+The first mention of "developer experience" as a concept was in a paper was presented at the June IEEE 2012 International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
+{{% /note %}}
+
+---
+
+{{< slide transition="fade fade" >}}
+
+### DevEx isn't new
+
+> "New ways of working such as globally distributed development or the integration of self-motivated external developers into software ecosystems will require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments.""
+
+REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
+
+{{% note %}}
+The first is the thought that "New ways of working...would require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments."
+{{% /note %}}
+
+---
+
+{{< slide transition="fade fade" >}}
+
+### DevEx isn't new
+
+> "...developer experience could be defined as a means for capturing how developers think and feel about their activities within their working environments, with the assumption that an improvement of the developer experience has positive impacts on characteristics such as sustained team and project performance."
+
+REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
+
+{{% note %}}
+The second was this line, that DevEx could be a means for capturing how devs think and feel about their activities at work, and that improving their experience impacts things like sustained team and project performance.
+
+All of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves.
+{{% /note %}}
+
+---
+
+### Point of clarification
+
+<p class="fragment">"DevOps Experience"</p>
+<p class="fragment">"DevExOps"</p>
+<p class="fragment">"DevOpsEx"</p>
+
+{{% note %}}
+"DevEx" focuses on the "developer", but we should really view DevEx as a whole, not just the developer experience.
+
+Maybe as "DevOps Experience" or "DevExOps" or "DevOpsEx"?
+{{% /note %}}
+
+---
+
 {{< slide id="bio" transition="zoom" transition-speed="fast" >}}
 <section>
     <div class="multiCol">
@@ -57,7 +115,7 @@ DevEx is an integral part of the entire DevOps lifecycle, as a direct result of 
 
 ---
 
-## So what is DevEx?
+## A working definition of DevEx
 
 >_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
 
@@ -74,11 +132,9 @@ Let's start with a definition of DevEx - DevEx is the journey of developers as t
 ![alt text](/images/slides/ui-ux-qa.gif)
 
 {{% note %}}
-it is about every interaction a developer or ops practitioner has with systems, tools, and processes.
+it is about every interaction a developer or ops practitioner has with systems, tools, and processes. And we've see an evolution in Developer Experience over the years.
 
-I'm sure we could all think of a tool or service in which we had a positive experience, but probably have more in mind that you had a negative experience.
-
-Here's an example of how Developer Experience has evolved a set of tools and practices:
+Here's an example of how Developer Experience has evolved a particular set of tools and practices:
 {{% /note %}}
 
 ---
