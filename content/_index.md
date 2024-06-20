@@ -46,7 +46,7 @@ DevEx is an integral part of the entire DevOps lifecycle, as a direct result of 
 REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
 
 {{% note %}}
-The first mention of "developer experience" as a concept was in a paper was presented at the June IEEE 2012 International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
+But DevEx isn't a new thing. The first mention of "developer experience" as a concept was in a paper was presented at the June IEEE 2012 International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
 {{% /note %}}
 
 ---
@@ -76,21 +76,31 @@ REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition]
 {{% note %}}
 The second was this line, that DevEx could be a means for capturing how devs think and feel about their activities at work, and that improving their experience impacts things like sustained team and project performance.
 
-All of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves.
+So all of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves. We've all been there - we've been told we need to adopt a new way of working, and then had some new tool from some friend on the C-Suite who says that by simply using it, we'll be happier, more productive, and instantly a 10x engineer. Meanwhile, you've used it before and it's shit.
 {{% /note %}}
 
 ---
 
 ### Point of clarification
 
+- "DevEx" by default focuses on "developer"
+- View "DevEx" as a whole of the lifecycle
+ 
+{{% note %}}
+After chatting with Sasha the other day, I think it's important to clarify that "DevEx" by default focuses on the "developer", but we should really view DevEx as a whole part of the lifecycle, and not just for developers only.
+{{% /note %}}
+
+---
+
+#### Workshop some new terms
+
 <p class="fragment">"DevOps Experience"</p>
 <p class="fragment">"DevExOps"</p>
 <p class="fragment">"DevOpsEx"</p>
+<p class="fragment">?????</p>
 
 {{% note %}}
-"DevEx" focuses on the "developer", but we should really view DevEx as a whole, not just the developer experience.
-
-Maybe as "DevOps Experience" or "DevExOps" or "DevOpsEx"?
+So I figured today would be a good day to workshop some new terms. Maybe as "DevOps Experience" or "DevExOps" or "DevOpsEx"?
 {{% /note %}}
 
 ---
@@ -139,6 +149,8 @@ Here's an example of how Developer Experience has evolved a particular set of to
 
 ---
 
+{{< slide transition="slide-in fade" >}}
+
 #### The evolution of the IDE
 ##### Early text editors
 
@@ -153,6 +165,8 @@ I think a great example is the evolution of Integrated Development Environments 
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### The evolution of the IDE
 ##### Early text editors
 
@@ -164,6 +178,8 @@ Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not en
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade fade" >}}
 
 #### The evolution of the IDE
 ##### First plug-in IDE
@@ -177,10 +193,12 @@ One of the first IDEs with a plug-in concept was HP Softbench, released in 1989.
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### The evolution of the IDE
 ##### First plug-in IDE
 
-![hp softbench manuals](/images/slides/hp-softbench-manuals.jpg)        ![HP Journal, June 1990 edition](/images/slides/hpjournal-june1990-hpsoftbench.jpg)
+![hp softbench manuals](/images/slides/hp-softbench-manuals.jpg) ![HP Journal, June 1990 edition](/images/slides/hpjournal-june1990-hpsoftbench.jpg)
 {.r-stretch}
 REF: [HP Journal, June 1990 edition](http://hparchive.com/Journals/HPJ-1990-06.pdf)
 
@@ -189,6 +207,8 @@ and was extensively talked about in the June 1990 edition of the HP Journal. It'
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade fade" >}}
 
 #### The evolution of the IDE
 ##### Early reviews
@@ -203,6 +223,8 @@ The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week i
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### The evolution of the IDE
 ##### Native IDEs in the 1980s
 
@@ -214,6 +236,8 @@ A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and Apple's
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade fade" >}}
 
 #### The evolution of the IDE
 ##### Cross-platform in the 1990s
@@ -227,6 +251,8 @@ Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### The evolution of the IDE
 ##### The Web and the 1990s
 
@@ -238,6 +264,8 @@ With the launch of the World Wide Web, and then its explosion of growth, the IDE
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade fade" >}}
 
 #### The evolution of the IDE
 ##### Feature & Usability Advancements
@@ -253,6 +281,8 @@ Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backs
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### The evolution of the IDE
 ##### Lightweight and configurable
 ###### 2010s to Now
@@ -265,6 +295,8 @@ Late 2000s brought about more lightweight IDEs, like Sublime Text and later Atom
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade fade" >}}
 
 #### The evolution of the IDE
 ##### Cloud-based options
@@ -335,6 +367,7 @@ I go through all of that to illustrate how the overall Developer Experience with
 
 {{% note %}}
 ### Modern Development
+
 The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
 {{% /note %}}
 
@@ -358,7 +391,9 @@ has emerged as a **critical differentiator for attracting and retaining top tale
 
 -->
 
---- 
+---
+
+{{< slide transition="slide-in fade" >}}
 
 #### Server Environment Setup
 ##### Manual configuration
@@ -376,6 +411,8 @@ Another quick example is the setup of environments like dev, staging, and produc
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### Server Environment Setup
 ##### Config Mgmt & Containerization
 ###### Mid-2000s to 2010s
@@ -391,6 +428,8 @@ Docker’s introduction in 2013 marked a significant shift, allowing practitione
 
 ---
 
+{{< slide transition="fade fade" >}}
+
 #### Server Environment Setup
 ##### IaC and DevOps Integration
 ###### 2010s to Present
@@ -405,6 +444,8 @@ The integration of environments with CI/CD pipelines and DevOps practices stream
 {{% /note %}}
 
 ---
+
+{{< slide transition="fade slide-out" >}}
 
 ### Broader Impact of DevEx
 
@@ -440,7 +481,7 @@ A few of the core DevOps principles really bring this all together.
 - Collaboration
 
 {{% note %}}
-**Collaboration** in DevOps **is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**. It's culture first, and 
+**Collaboration** in DevOps **is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**. It's people first, and 
 {{% /note %}}
 
 ---
@@ -515,9 +556,12 @@ That **Shared Responsibility** brings empowerment to all team members with acces
 {{< slide background="/images/slides/38-devex-integ-devops-principles.jpg" background-opacity="1" >}}
 
 {{% note %}}
-By integrating DevEx with these core DevOps principles, organizations can build more cohesive, agile, and effective teams that are better equipped to meet the demands of modern software development. This mix is not only improving the workflow and productivity but also enhancing the overall quality of the software delivered, ultimately benefiting the end-users.
+Organizations seeking to build more cohesive, agile, and effective teams who are better equipped to meet the demands of modern software development, have to ensure that they don't stop at just these core DevOps principles - but that they ensure an emphasis on DevEx in the implementation of the tooling. If it's a poor experience, you aren't going to see the results you want.
+
+I think a good example is what we've seen with Platform Engineering the last few years.
 {{% /note %}}
 
+<!--
 ---
 
 ### Good DevOps == Good DevEx
@@ -532,6 +576,7 @@ A good DevEx facilitates **smoother transitions between your dev and ops teams**
 {{% /note %}}
 
 ---
+-->
 <!--
 ---
 
@@ -594,7 +639,7 @@ When organizations prioritize DevEx, they ensure that devs have access to tools 
 {{% note %}}
 Some of the better practices to keep in mind when leveling up with DevEx are:
 **Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs. Get their input in the decision. Just because your buddy's IT startup says they offer 10x developer productivity doesn't mean it works for your teams, much less that it works at all.
-**Put in placecross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
+**Put in place cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
 **Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.  
 Reduce toil and free up team members to focus on more strategic activities by **automating repetitive and manual tasks wherever possible.** This includes automating testing, deployments, and infrastructure provisioning.  
 **Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.  
@@ -623,6 +668,7 @@ I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (an
 ---
 
 {{< slide id="end" >}}
+
 <section>
     <div class="multiCol">
         <div class="col" style="text-align: center;">
