@@ -678,6 +678,8 @@ I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (an
     <div class="multiCol">
         <div class="col" style="text-align: center;">
             <h2 style="color: #04aa51; text-shadow: none;">Thank You.</h2>
+            <img src="/images/slides/SpeakerFeedbackQRCode.png" width="200px">
+            <p style="font-size: .75em;">Feedback is appreciated.</p>
         </div>
         <div class="col" align="center">&nbsp;</div>
         <div class="col" align="left" style="font-size: .5em;">
