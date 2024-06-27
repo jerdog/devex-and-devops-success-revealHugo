@@ -125,6 +125,11 @@ So I figured today would be a good day to workshop some new terms. Maybe as "Dev
 
 ---
 
+![alt text](/images/slides/kcdc24_sponsorslide_001.jpeg)
+{.r-stretch}
+
+---
+
 ## A working definition of DevEx
 
 >_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."_
